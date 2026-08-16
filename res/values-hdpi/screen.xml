@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="device_dpi">hdpi</string>    
+<dimen name="login_text_size">18sp</dimen>
+<dimen name="login_btn_text">22dp</dimen>
+<dimen name="login_btn_padding">8dp</dimen>
+
+<dimen name="dialer_digit_lvl0">7sp</dimen>
+<dimen name="dialer_digit_lvl1">23sp</dimen>
+<dimen name="dialer_digit_lvl2">16sp</dimen>
+<dimen name="dialer_digit_lvl3">12sp</dimen>
+<dimen name="dialer_digit_lvl4">9sp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+   	<CheckBoxPreference android:title="@string/G729" android:key="@string/MEDIA_G729" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/GSM" android:key="@string/MEDIA_GSM" android:defaultValue="true"/>                
+   	<CheckBoxPreference android:title="@string/PCMA" android:key="@string/MEDIA_PCMA" android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/PCMU" android:key="@string/MEDIA_PCMU" android:defaultValue="true"/>
+    
+    
+    <PreferenceCategory
+        android:key="audio_feature"
+        android:title="@string/string_audiofeature" >
+        <CheckBoxPreference android:title="@string/MEDIA_AEC" android:key="@string/MEDIA_AEC" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/MEDIA_VAD" android:key="@string/MEDIA_VAD" android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/MEDIA_CNG" android:key="@string/MEDIA_CNG" android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/MEDIA_AGC" android:key="@string/MEDIA_AGC" android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/MEDIA_ANS" android:key="@string/MEDIA_ANS" android:defaultValue="false"/>
+    </PreferenceCategory>
+   
+    
+ 
+    
+</PreferenceScreen>

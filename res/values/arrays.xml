@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--resources for access no preference-->
+
+    <string-array name="access_no_list">
+        <item name="1000">Every 1 second</item>
+        <item name="5000">Every 5 seconds</item>
+        <item name="30000">Every 30 seconds</item>
+        <item name="60000">Every 1 minute</item>
+        <item name="300000">Every 5 minutes</item>
+    </string-array>
+
+    <string-array name="access_no_values">
+        <item name="1000">1000</item>
+        <item name="5000">5000</item>
+        <item name="30000">30000</item>
+        <item name="60000">60000</item>
+        <item name="300000">300000</item>
+    </string-array>
+
+    <!--resource for ivr setting-->
+
+    <string-array name="ivr_list">
+        <item name="2">2 second</item>
+        <item name="3">3 seconds</item>
+        <item name="4">4 seconds</item>
+        <item name="5">5 seconds</item>
+        <item name="6">6 seconds</item>
+        <item name="7">7 seconds</item>
+        <item name="8">8 seconds</item>
+        <item name="9">9 seconds</item>
+        <item name="10">10 seconds</item>
+    </string-array>
+
+    <string-array name="ivr_values">
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+    </string-array>
+
+	<string-array name="resources">
+		<item>Mobile</item>
+		<item>Phone</item>
+		<item>Tablet</item>
+		<item>Conversations</item>
+		<item>Android</item>
+	</string-array>
+	<string-array name="filesizes">
+		<item>@string/never</item>
+		<item>256 KiB</item>
+		<item>512 KiB</item>
+		<item>1 MiB</item>
+		<item>5 MiB</item>
+		<item>10 MiB</item>
+	</string-array>
+	<string-array name="filesizes_values">
+		<item>0</item>
+		<item>262144</item>
+		<item>524288</item>
+		<item>1048576</item>
+		<item>5242880</item>
+		<item>10485760</item>
+	</string-array>
+	<string-array name="mute_options_descriptions">
+		<item>@string/thirty_minutes</item>
+		<item>@string/one_hour</item>
+		<item>@string/two_hours</item>
+		<item>@string/eight_hours</item>
+		<item>@string/until_further_notice</item>
+	</string-array>
+
+	<integer-array name="mute_options_durations">
+		<item>1800</item>
+		<item>3600</item>
+		<item>7200</item>
+		<item>28800</item>
+		<item>-1</item>
+	</integer-array>
+    <string-array name="menue_list">
+        <item>@string/account_sset</item>
+       <!-- <item>@string/call_back</item>-->
+        <item>@string/access_no_setting</item>
+        <item>@string/voucherr_recharge</item>
+
+        <item>@string/refill_via_paypal</item>
+        <item>@string/call_history</item>
+        <item>@string/refill_history</item>
+        <item>@string/rate_check</item>
+        <item>@string/about_us</item>
+        <item>@string/logout</item>
+        <!--<item>@string/topup</item>
+        <item>@string/refer_friend</item>
+        <item>@string/recent</item>-->
+
+
+        <!--<item>@string/Buy_forwarding_num</item>-->
+       <!-- <item>@string/manage_account</item>-->
+
+        <!--<item>@string/sms_hist</item>
+        <item>@string/help</item>-->
+
+    </string-array>
+
+
+    <string-array name="menue_list1">
+        <item>Exit</item>
+    </string-array>
+
+    <string-array name="default_smiley_names">
+        <item>Happy</item> <!-- 0: :-) -->
+        <item>Sad</item> <!-- 1: :-( -->
+        <item>Winking</item> <!-- 2: ;-) -->
+        <item>Tongue sticking out</item> <!-- 3: :-P -->
+        <item>Surprised</item> <!-- 4: =-O -->
+        <item>Kissing</item> <!-- 5: :-* -->
+        <item>Yelling</item> <!-- 6: :O -->
+        <item>Cool</item> <!-- 7: B-) -->
+        <item>Money mouth</item> <!-- 8: :-$ -->
+        <item>Foot in mouth</item> <!-- 9: :-! -->
+        <item>Embarrassed</item> <!-- 10: :-[ -->
+        <item>Angel</item> <!-- 11: O:-) -->
+        <item>Undecided</item> <!-- 12: :-\\ -->
+        <item>Crying</item> <!-- 13: :\'( -->
+        <item>Lips are sealed</item> <!-- 14: :-X -->
+        <item>Laughing</item> <!-- 15: :-D -->
+        <item>Confused</item> <!-- 16: o_O -->
+    </string-array>
+    <string-array name="presence_status_names">
+        <item>@string/online</item>
+        <item>@string/offline</item>
+    </string-array>
+    <string-array name="sip_data_sources">
+        <item>@string/uri_nbr</item>
+        <item>@string/uri_im</item>
+    </string-array>
+    <string-array name="saluatations">
+     <item>
+        --Select saluatation--
+     </item>
+
+     <item>
+         Mr.
+     </item>
+
+     <item >
+         Mrs.
+     </item>
+
+    </string-array>
+    <string-array name="country_arrays">
+        <item >--Select--</item>
+        <item > ITALY </item>
+        <item  > SWITZERLAND </item>
+        <item  > AUSTRIA </item>
+    </string-array>
+    <string-array name="language_list">
+        <item>"English"</item>
+        <item>"Spanish"</item>
+        <item>"Portugusese"</item>
+    </string-array>
+    <integer-array name="language_list_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="account_setting"
+        android:summary="fdgdgd"
+        android:title="@string/account_setting"
+        >
+        <EditTextPreference
+            android:key="username"
+            android:singleLine="true"
+            android:title="@string/w_basic_username" />
+        <!--
+		<EditTextPreference android:key="display_name"
+			android:singleLine="true"
+			android:title="@string/w_common_display_name"></EditTextPreference>
+        -->
+
+
+        <!--
+        <EditTextPreference
+            android:key="username"
+            android:singleLine="true"
+            android:title="@string/w_basic_username" >
+        </EditTextPreference>
+        -->
+        <com.orbit.call.widgets.PasswordPreference
+            android:key="password"
+            android:password="true"
+            android:singleLine="true"
+            android:title="@string/w_basic_password" >
+        </com.orbit.call.widgets.PasswordPreference>
+
+        <!--
+    <EditTextPreference
+        android:key="mid_id"
+        android:singleLine="true"
+        android:title="@string/w_basic_username" >
+    </EditTextPreference>
+        -->
+        <EditTextPreference
+            android:key="server"
+            android:enabled="false"
+            android:singleLine="true"
+            android:visibility="gone"
+            android:title="@string/w_common_server" >
+        </EditTextPreference>
+        <EditTextPreference
+
+            android:enabled="false"
+            android:key="api"
+            android:visibility="gone"
+            android:singleLine="true"
+            android:title="@string/w_common_api" >
+        </EditTextPreference>
+
+        <!--
+    <com.himtel.tech.widgets.PasswordPreference
+        android:key="mid_pass"
+        android:password="true"
+        android:singleLine="true"
+        android:title="@string/w_basic_password" >
+    </com.himtel.tech.widgets.PasswordPreference>
+        -->
+        <!--<ListPreference
+            android:enabled="false"
+            android:dialogTitle="Select country"
+            android:key="country"
+            android:shouldDisableView="true"
+            android:summary="@string/w_common_accesscountry"
+            android:title="@string/country"/>
+        <ListPreference
+            android:enabled="false"
+            android:shouldDisableView="true"
+            android:key="access_number"
+            android:dependency="country"
+            android:summary="@string/w_common_accessnumber"
+            android:title="@string/access_number" />
+        <EditTextPreference
+            android:defaultValue="2"
+            android:dependency="access_number"
+            android:enabled="false"
+            android:inputType="number"
+            android:shouldDisableView="true"
+            android:visibility="gone"
+            android:key="pause_time"
+            android:singleLine="true"
+            android:summary="@string/w_common_time_before"
+            android:title="@string/pause_time_before" />-->
+
+        <!--   <CheckBoxPreference
+           android:dependency="access_number"
+           android:enabled="true"
+           android:defaultValue="false"
+           android:key="auto_pin"
+           android:summary="@string/w_common_autopin"
+           android:title="Enable Auto Pin dial" /> -->
+
+        <!--  <EditTextPreference
+             android:dependency="auto_pin"
+             android:enabled="true"
+             android:inputType="number"
+             android:key="pin_number"
+             android:singleLine="true"
+             android:summary="@string/w_common_pin"
+             android:title="Pin Number" /> -->
+        <!--  <EditTextPreference
+             android:defaultValue="4"
+             android:dependency="auto_pin"
+             android:enabled="true"
+             android:inputType="number"
+             android:key="pause_time_after_pin"
+             android:singleLine="true"
+             android:summary="@string/w_common_time_after"
+             android:title="Pause Time After Pin" /> -->
+    </PreferenceCategory>
+</PreferenceScreen>

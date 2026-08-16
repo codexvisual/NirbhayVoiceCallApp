@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LightTheme"  />
+<!-- 
+     <style name="DarkTheme" parent="Theme.Sherlock">
+        <item name="actionBarTabTextStyle">@style/Example.ActionBar.TabTextStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/Example.ActionBar.TabTextStyle</item>
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="actionBarSize">64dip</item>
+        <item name="android:actionBarSize">64dip</item>
+    </style> -->
+ <style name="DarkTheme" parent="Theme.Sherlock">
+        <item name="android:background">#00000000</item>
+        <item name="android:cacheColorHint">#00000000</item>
+     <!--    <item name="android:buttonStyle">@style/MobisnowButton</item>
+        <item name="android:editTextStyle">@style/MobisnowEditText</item> -->
+        <item name="android:actionBarStyle">@style/MobisnowActionBarStyle</item>
+        <item name="actionBarStyle">@style/MobisnowActionBarStyle</item>
+        <item name="android:actionBarTabStyle">@style/MobisnowActionBarTabStyle</item>
+<!--         <item name="android:textViewStyle">@style/MobisnowTextView</item> -->
+        <item name="actionBarTabStyle">@style/MobisnowActionBarTabStyle</item>
+        <item name="actionBarSize">64dp</item>
+     <item name="android:actionBarDivider">@null</item>
+        <!-- <item name="android:actionBarSize">64dp</item> -->
+    </style>
+    <style name="MyActionBarStyle" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+       <!--  <item name="android:backgroundStacked">@drawable/actionbar_bg</item> -->
+        <item name="backgroundStacked">@drawable/actionbar_bg</item>
+        <item name="android:background">@drawable/actionbar_bg</item>
+        <item name="background">@drawable/actionbar_bg</item>
+    </style>
+
+    <style name="ButtonBar" parent="@android:style/Holo.ButtonBar" />
+
+    <style name="ButtonBar.AlertDialog" parent="@android:style/Holo.ButtonBar.AlertDialog" />
+
+</resources>

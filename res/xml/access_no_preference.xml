@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Access Number Setting"
+        android:key="access_no_category">
+
+        <ListPreference
+            android:key="access_no"
+            android:title="Access Number"
+            android:summary="%s"
+
+
+
+            />
+        <ListPreference
+            android:key="pause_time_before_ivr"
+            android:title="Pause time before ivr"
+            android:summary="%s"
+            android:defaultValue="2"
+            android:entries="@array/ivr_list"
+            android:entryValues="@array/ivr_values"
+
+            />
+        <!--<EditTextPreference
+            android:key="pause_time_before_ivr"
+            android:title="Pause time before ivr"
+            android:summary="minimum value is 2 seconds"
+            android:dialogTitle="Pause time before ivr"
+            android:dialogMessage="minimum value is 2 seconds"
+            android:defaultValue="Pause time before ivr"
+            android:dependency="access_no"/>
+        <CheckBoxPreference
+            android:key="enable_auto_pin"
+            android:summary="Automatically dials pin before IVR plays"
+            android:title="Enable auto pin"
+            android:defaultValue="true"
+            android:dependency="access_no"
+            />
+
+        <EditTextPreference
+            android:key="pin_number"
+            android:title="Pin Number"
+            android:summary="pin number for your calling card"
+            android:dialogTitle="Pin Number"
+            android:dialogMessage="pin number for your calling card"
+            android:defaultValue="Pin Number"
+            android:dependency="access_no"/>-->
+
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory
+        android:title="Second Category"
+        android:key="second_category">
+
+        <EditTextPreference
+            android:key="welcome_message"
+            android:title="Welcome Message"
+            android:summary="Define the Welcome message to be shown"
+            android:dialogTitle="Welcome Message"
+            android:dialogMessage="Provide a message"
+            android:defaultValue="Default welcome message" />
+
+    </PreferenceCategory>-->
+
+</PreferenceScreen>

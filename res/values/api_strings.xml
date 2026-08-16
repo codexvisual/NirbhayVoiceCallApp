@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <!--  <string name="app_name" >UNI</string>-->
+      <!-- <string name="server_url" translatable="false">sip.persia.com</string>
+    <string name="server_port" translatable="false">5060</string>    
+    <string name="access_number_list_url">http://sip.skiproaming.com/a2billing/customer/access_number.php</string>	    										   
+    <string name="server_api" translatable="false">http://sip.skiproaming.com/a2billing/customer/androida2billing/index.php</string>-->
+
+   <!-- <string name="server_url" translatable="false">88.208.222.15</string>-->
+    <string name="server_url" translatable="false">5.196.197.75</string>
+    <string name="server_port" translatable="false">6278</string>
+
+    <!--<string name="access_number_list_url">http://88.208.222.15/a2b/customer/dialerapi/access_numbers.php</string>-->
+    <string name="access_number_list_url">http://sip.skiproaming.com/a2billing/customer/access_number.php</string>
+    <!--<string name="server_api" translatable="false">http://88.208.222.15/a2b/customer/dialerapi/index.php</string>-->
+    <string name="server_api" translatable="false">http://5.196.197.75/a2billing/customer/dialerapi/</string>
+    <string name="company_url"></string>
+    <string name="help_url"></string>
+   <!-- <string name="permlab_useSip">Use SIP</string>-->
+   <!-- <string name="permdesc_useSip">Place SIP calls, send SIP messages and control SIP communications</string>
+    <string name="permlab_configureSip">Use sip</string>
+    <string name="permdesc_configureSip">Place SIP calls, send SIP messages and control SIP communications</string>-->
+    <string name="dial">Dial</string>
+    <string name="hint">Please Enter Number</string>
+
+</resources>

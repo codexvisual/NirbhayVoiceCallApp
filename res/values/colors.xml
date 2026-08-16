@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary" type="color">#4C0182</color>
+    <color name="primarydark" type="color">#ff0a7e07</color>
+    <color name="accent">#ff0091ea</color>
+    <color name="primarytext" type="color">#de000000</color>
+    <color name="secondarytext" type="color">#8a000000</color>
+    <color name="ondarktext" type="color">#fffafafa</color>
+    <color name="primarybackground" type="color">#fffafafa</color>
+    <color name="secondarybackground" type="color">#ffeeeeee</color>
+    <color name="darkbackground" type="color">#ff323232</color>
+    <color name="divider">#1f000000</color>
+    <color name="red">#ffe51c23</color>
+    <color name="orange">#ffff9800</color>
+    <color name="green">#ff259b24</color>
+    <color name="gray_4C4C4C">#FF4C4C4C</color>
+    <color name="gray_E5E5E5">#E5E5E5</color>
+    <color name="gray_DFDCDE">#DFDCDE</color>
+    <color name="gray_D6D4D5">#D6D4D5</color>
+   <!-- <color name="white">#FFFFFF</color>-->
+    <color name="white_55_transparent">#55FFFFFF</color>
+    <color name="translucent_white">#99FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#000099</color>
+    <color name="transparent">#00000000</color>
+    <color name="darkgray">#ffbbbbbb</color>
+    <color name="text_selected">#ffcf4c29</color>
+    <color name="text_over">#ffb9c4cb</color>
+    <color name="text_default">#ff5b656f</color>
+    <color name="text_disabled">#ffa6b3bf</color>
+    <color name="button_pressed">#ff17b3ee</color>
+    <color name="button_normal">#ff00d8ff</color>
+    <color name="grayA9A9A9">#f000</color>
+    <color name="tab_normal">#CF9CE1</color>
+    <color name="tab_checked">#B162CD</color>
+
+    <!-- Background -->
+    <!-- orange -->
+    <!--     <color name="background_solid">#FF5900</color> -->
+    <!--     <color name="background_start_color">#FF5900</color> -->
+    <!--     <color name="background_center_color">#D32802</color> -->
+    <!--     <color name="background_end_colot">#BF1002</color> -->
+
+    <!-- Blue -->
+    <!--     <color name="background_solid">#71B7FF</color> -->
+    <!--     <color name="background_start_color">#71B7FF</color> -->
+    <!--     <color name="background_center_color">#417FC0</color> -->
+    <!--     <color name="background_end_colot">#2964A0</color> -->
+
+    <!-- grey -->
+    <color name="background_solid">#CDDBE6</color>
+    <color name="background_start_color">#CDDBE6</color>
+    <color name="background_center_color">#A4B4BD</color>
+    <color name="background_end_colot">#5B6C74</color>
+
+    <!-- backspace_contact_grad -->
+    <color name="backspace_contact_grad">#449def</color>
+
+    <!-- call_button_grad -->
+    <color name="call_button_grad_solid">#70c656</color>
+    <color name="call_button_grad_stroke">#53933f</color>
+
+    <!-- grad_blue -->
+    <color name="grad_blue_start_color">#449def</color>
+    <color name="grad_blue_end_color">#2f6699</color>
+
+    <!-- grad_login_btn -->
+    <color name="grad_login_btn_stroke">#2f6699</color>
+    <color name="grad_login_btn_start">#449def</color>
+    <color name="grad_login_btn_end">#2f6699</color>
+
+    <!-- grad_red -->
+    <color name="grad_red_start">#ef4444</color>
+    <color name="grad_red_end">#992f2f</color>
+
+    <!-- numpad_background -->
+    <color name="numpad_background_start">#191999</color>
+    <color name="numpad_background_center">#3636a6</color>
+    <color name="numpad_background_end">#3636a6</color>
+
+    <!-- Numpad -->
+    <color name="button_text_color">#FFFFFF</color>
+
+    <!-- single_line_callog.xml -->
+    <color name="white_transparent">#99FFFFFF</color>
+</resources>

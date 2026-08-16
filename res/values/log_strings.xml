@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="unknown">Unknown</string>
+    <string name="type_incoming">Incoming</string>
+    <string name="type_outgoing">Outgoing</string>
+    <string name="type_missed">Missed</string>
+     <string name="type_calback_error">Error CallBack</string>
+     <string name="type_calback_suc">Success CallBack</string>
+    <string name="callBack">Call back</string>
+    <string name="callAgain">Call again</string>
+    <string name="returnCall">Return call</string>
+
+    <string name="no_call_history">No call history</string>
+
+</resources>

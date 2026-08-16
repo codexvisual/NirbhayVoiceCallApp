@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"    
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/DialPadRow"  >
+
+        <ImageButton
+            android:id="@+id/button1"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_one"
+            android:soundEffectsEnabled="false"
+            android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_1_no_vm" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_two"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_2" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_three"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_3" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/DialPadRow" >
+
+        <ImageButton
+            android:id="@+id/button4"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_four"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_4" />
+
+        <ImageButton
+            android:id="@+id/button5"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_five"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_5" />
+
+        <ImageButton
+            android:id="@+id/button6"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_six"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_6" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/DialPadRow" >
+
+        <ImageButton
+            android:id="@+id/button7"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_seven"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_7" />
+
+        <ImageButton
+            android:id="@+id/button8"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_eight"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_8" />
+
+        <ImageButton
+            android:id="@+id/button9"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_nine"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_9" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/DialPadRow" >
+
+        <ImageButton
+            android:id="@+id/buttonstar"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_star"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_star" />
+
+        <ImageButton
+            android:id="@+id/button0"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_zero"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_0" />
+
+        <ImageButton
+            android:id="@+id/buttonpound"
+            style="@style/DialPadButton"
+            android:contentDescription="@string/description_image_button_pound"
+            android:soundEffectsEnabled="false"
+                android:background="@drawable/custom_selector"
+            android:src="@drawable/dial_num_pound" />
+    </LinearLayout>
+
+</LinearLayout>

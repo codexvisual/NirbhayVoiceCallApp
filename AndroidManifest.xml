@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.orbit.call"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <application
+        android:name="com.orbit.call.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:launchMode="singleInstance"
+        android:label="@string/app_name"
+        android:theme="@style/DarkTheme"
+        tools:replace="android:label" >
+
+        <activity
+            android:name="com.orbit.call.acitivites.SipHome"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <service android:name="com.orbit.call.PortSipService" >
+        </service>
+
+        <activity
+            android:name="com.orbit.call.acitivites.LoginActivitys"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+
+        </activity>
+        <activity
+            android:name="com.orbit.call.acitivites.AccessNOPrefActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyAppTheme"
+            android:parentActivityName="com.orbit.call.acitivites.SipHome"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+
+        </activity>
+        <activity
+            android:name="com.orbit.call.acitivites.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:alwaysRetainTaskState="false"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+
+        </activity>
+        <!-- <activity
+             android:name="com.phonetel.tech.acitivites.IncommingActivity"
+base             android:alwaysRetainTaskState="false"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+
+         </activity>-->
+
+        <activity
+            android:name= "com.orbit.call.acitivites.InCallActivity"
+            android:label="@string/title_activity_in_call"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.orbit.call.acitivites.AboutUsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyAppTheme"
+            android:parentActivityName="com.orbit.call.acitivites.SipHome">
+            <!--<meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.orbit.call.acitivites.SipHome" />-->
+
+        </activity>
+        <activity
+            android:name="com.orbit.call.acitivites.Codec"
+            android:theme="@style/Theme.Sherlock"
+            android:label="UNI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.orbit.call.wizards.BasePrefsWizard"
+            android:configChanges="orientation"
+            android:theme="@style/Theme.MyAppTheme"
+            android:parentActivityName="com.orbit.call.acitivites.SipHome"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:name="com.orbit.call.acitivites.SplashActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.orbit.call.acitivites.SendSmsActivity"
+            android:theme="@style/Theme.Sherlock.NoActionBar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.orbit.call.acitivites.FeedBackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <!--<activity android:name="com.orbit.call.CallHistory"
+            android:theme="@style/Theme.Sherlock"></activity>-->
+        <activity android:name="com.orbit.call.acitivites.ActivityAdvanceSettingInSettingOption"
+            android:theme="@style/Theme.Sherlock"></activity>
+        <activity android:name="com.orbit.call.acitivites.ActivityTopUpInSettingOption"
+            android:theme="@style/Theme.Sherlock"></activity>
+        <activity android:name="com.orbit.call.acitivites.ActivityAccountInSettingOption"
+            android:theme="@style/Theme.Sherlock"></activity>
+        <activity android:name="com.orbit.call.acitivites.ActivityTopHistoryListInSettingOptions"
+            android:theme="@style/Theme.Sherlock"></activity>
+        <activity android:name="com.orbit.call.acitivites.ActivityGetRateByCountry"
+            android:theme="@style/Theme.Sherlock"></activity>
+        <service android:name="com.orbit.call.services.XmppConnectionService" />
+
+        <receiver android:name="com.orbit.call.services.EventReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.orbit.call.ui.ConversationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+            <!-- <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>-->
+        </activity>
+
+       <activity
+            android:name="com.orbit.call.ui.StartConversationActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+           android:theme="@style/Theme.Sherlock"
+            android:label="@string/title_activity_start_conversation" >
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="imto" />
+                <data android:host="jabber" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="xmpp" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="xmpp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.orbit.call.ui.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="com.orbit.call.ui.ChooseContactActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_choose_contact" />
+        <activity
+            android:name="com.orbit.call.ui.BlocklistActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_block_list" />
+	    <activity
+		    android:name="com.orbit.call.ui.ChangePasswordActivity"
+            android:screenOrientation="portrait"
+		    android:label="@string/change_password_on_server" />
+        <activity
+            android:name="com.orbit.call.ui.ManageAccountActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_manage_accounts" />
+        <activity
+            android:name="com.orbit.call.ui.EditAccountActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.orbit.call.ui.ConferenceDetailsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_conference_details"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.orbit.call.ui.ContactDetailsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_contact_details"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.orbit.call.ui.PublishProfilePictureActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/mgmt_account_publish_avatar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.orbit.call.ui.VerifyOTRActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/verify_otr"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.orbit.call.ui.ShareWithActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.duenndns.ssl.MemorizingActivity"
+            android:theme="@style/ConversationsTheme"
+            tools:replace="android:theme"/>
+        <activity
+            android:name="com.orbit.call.ui.AboutActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.orbit.call.ui.SettingsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.orbit.call.ui.SettingsActivity" />
+        </activity>
+        <service android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+
+  <string name="signup_text">New Users : </string>
+    <string name="poweredby">
+        <!-- Powered by: www.mobisnow.com -->
+    </string>
+    <!-- Welcome Screen -->
+    <string name="welco_api_lbl">A2Billing API URI</string>
+    <string name="welco_example_text">/androida2billing/index.php</string>
+    <string name="welco_uri_hint">e.g:1.2.3/customer</string>
+    <string name="welco_next">Next</string>
+    <string name="welco_instruction">INSTRUCTIONS: </string>
+    <string name="welco_whats_new">What\'s New</string>
+    <string name="api_ins">        This version needs latest API. Download API from \nhttp://api.mobisnow.com\n and put it under a2billing customer folder on your server.
+        \n\n e.g \n   [domain]/[Path of Api]\n   server.nextstag.com\n</string>
+    <string name="whatsnew">- Added New Calling Card Feature.\n- Added Call-History from Server Side. \n- Improved GUI.\n- Minor Bug Fixes.\n\n<b>Note:</b> This version needs latest API. Download API from \nhttp://api.mobisnow.com\n and put it under a2billing customer folder on your server. </string>
+    <string name="next">Next</string>
+    <string name="remenber_cb"> Lembre-se</string>
+    <!-- login Screen -->
+    <string name="admin_msg_uri" translatable="true">http://api.mobisnow.com/mobisip.php</string>
+    <string name="server_hint">domain:port</string>
+    <string name="login">Login</string>
+    <string name="user_id">ID Usuário</string>
+    <string name="password">Senha</string>
+    <string name="app_name">OrbitCall</string>
+    <string name="server_uri">Server</string>
+    <string name="remember">Lembre-se</string>
+     <string name="sign_up">Inscrever-se</string>
+      <string name="forgot_password"><u>recuperar senha</u></string>
+     <!-- Send sms  -->
+     <string name="to">Para</string>
+     <string name="send">Enviar</string>
+    <!-- <string name="done">Feito</string>-->
+    <string name="skiproaming_chat">SkipRoaming bate-papo</string>
+      <string name="not_save_destination_number">Você não salvou número de destino.</string>
+      <string name="can_not_send_blank">Não é possível enviar sms em branco.</string>
+      <string name="server_not_response">Servidor não resposta</string>
+      <string name="not_save_callback_number">Você não salvou número de retorno.</string>
+      <string name="internet_connection_msg">Por favor, verifique sua conexão com a internet.</string>
+      <string name="sms_sent">SMS Enviados</string>
+      <string name="sms_failed">SMS Falha</string>
+      <string name="enter_number_msg">Por favor, insira o número de primeira</string>
+      
+    <!-- DialPad -->
+    <string name="local_access">Local Number</string>
+    <string name="voip_call">WiFi/3G/4G</string>
+    <string name="call_back">O meu número de telemóvel</string>
+    <string name="credit">Crédito: </string>
+    <!-- Action Bar -->
+    <string name="num_pad">Teclado</string>
+    <string name="recent">Recente</string>
+    <string name="contacts">Contatos</string>
+    <string name="msg">Mensagem</string>
+    <string name="favorite">Favoritos</string>
+    <string name="settings">Setting</string>
+    <!-- Setting -->
+      <string name="topup">Carregar</string>
+      <string name="advance_setting">Configuração avançada</string>
+      <string name="manage_account">Gerir conta</string>
+    <string name="about_us">Sobre Nós</string>
+     <string name="no_local_access"> Não há \ "número de acesso local \" para a selecção do país.</string>
+    <string name="first_enter_country_code">Primeiro indicar o código do país</string>
+     <string name="plz_enter_default_callback_no">Digite chamada padrão atrás número</string>
+     <string name="not_logged">Você não está logado, você precisa se registrar</string>
+    <string name="my_account">Minha Conta</string>
+    <string name="account">Conta</string>
+     <string name="mobile_info">Permitir informações sobre este dispositivo a ser relatados com esse feedback. <u>Mais</u></string>
+     <string name="select_feedback_type">Wählen Sie Ihre Meinung Type</string>
+      <string name="select_type_feedback">Selecione o tipo de feedback</string>
+          <string name="call_quality">Qualidade chamada</string>
+     <string name="billing_issue">Faturamento Issue</string>
+       <string name="application">Aplicação</string>
+         <string name="user_interface">Interface De Usuário</string>
+           <string name="suggestion">Sugestão</string>
+              <string name="other">De Outros</string>
+          <string name="submit_feedback">Submeter o seu feedback!</string>
+          <string name="personal_data">Dados Pessoais</string>
+       <string name="error_feedback">Houve um erro na apresentação do feedback. Por favor, tente novamente</string>
+       <string name="thank_feedback">Obrigado por enviar seu feedback!</string>
+      <string name="enter_feedback">Digite o feedback</string>
+    <string name="submit">Submeter</string>
+     <string name="feedback">Opinião</string>
+     <string name="feedback_important">A sua opinião é importante para nós!</string>
+    <string name="rate">Verificar tarifas</string>
+    <string name="setting_tab_name_text"></string>
+    <string name="callback">Ligar De Volta</string>
+    <string name="feed_back">Feedback</string>
+    <string name="buy_voucher">Comprar Vale</string>
+    <string name="recharge">Recarregar</string>
+    <string name="refill_via_voucher">Recarregar via voucher</string>
+    <string name="ref_hostory">Histórico Recargas</string>
+    <string name="topup_via_card">Carregar via cartão de credito</string>
+    <string name="topup_via_voucher">Carregar via Vale</string>
+    <string name="topup_history">Histórico de Carregamentos</string>
+    <string name="recharge_card">Recarregar via cartão</string>
+    <string name="manage_acc">Gerir conta</string>
+    <string name="Buy_forwarding_num">trasferir chamadas</string>
+     <string name="refer_friend">comunique um amigo</string>
+      <string name="free_calls">Chamadas gratuitas</string>
+    <string name="call_history">Histórico de chamadas</string>
+    <string name="reseller">Encontrar revendedor local</string>
+    <string name="logout">terminar sessão</string>
+    <string name="sms_hist">SMS história</string>
+    <string name="close">Perto</string>
+    
+    <string name="log_out">Sair</string>
+  <string name="codec">Codec</string>
+    <string name="access_number_setting">Configuração número de acesso</string>
+      <string name="my_mobile_number">O meu número de telemóvel</string>
+     <string name="call_via_sim">Chamada via número de acesso local</string>
+      <string name="call_via_wifi">Chamada via wifi ou de dados</string>
+       <string name="call_when_abroad">Ligar de Volta \n (exterior ou sem wifi/dados)</string>
+       <string name="call_when_abroad1">(exterior ou sem wifi/dados)</string>
+        <string name="send_sms">Enviar sms</string>
+         <string name="cancel">Anular</string>
+         <string name="save">Guardar</string>
+          <string name="account_setting">Configuração da conta</string>
+                    <string name="access_number">Número de acesso</string>
+                     <string name="pause_time_before">Tempo de pausa Antes IVR</string>
+                     <string name="country">País</string>
+                     <string name="select_country">Escolher País</string>
+          <string name="call_rate_message">Por favor, insira o número de telefone que deseja chamar( código do país + número do telefone).</string>
+         <string name="check_rate_by_country">Verificar tarifas por país</string>
+          <string name="plz_enter_number_first">Por favor, insira primeiro o número</string>
+         <string name="choose_call_mode">Escolha o modo de chamadas</string>
+                    <string name="plz_enter_voucher_code">Insira o Código do Vale por favor</string>  
+  <string name="no_network_found">Rede não encontrada</string> 
+   <string name="rates">tarifas</string> 
+    <string name="destination">Destino</string> 
+     <string name="dialprefix">Digite prefixo</string> 
+      <string name="currency">Câmbio</string>    
+         <string name="get_rate">Obter tarifas</string>     
+       <string name="authentication_failed">Autenticação falhou</string>    
+         <string name="try_again">Tente novamente</string>   
+          <string name="error">Erro</string>  
+          <string name="refil">Refill</string>  
+           <string name="communication_error">Erro de comunicação</string>   
+            <string name="back">Ligar De Volta</string>  
+             <string name="search">Pesquisa</string>
+                  <string name="dtmf">DTMF</string>  
+                      <string name="disconnect">Desligar</string>  
+                   <string name="status">Status</string>
+                     <string name="callback_response_one">O sistema SkipRoaming irá agora ligar-lhe de volta e conectar o número pretendido.</string>
+                  <string name="callback_response_two">Por favor indique o seu número e o número de destino pretendido.</string>
+                  <string name="callback_response_three">Impossivel ligar o seu número de volta.</string>
+                  <string name="callback_response_four">Desculpe o seu balanço é baixo.</string>
+                  <string name="callback_response_five">Pedido falhado.</string>
+                   <string name="textmsg">Mensagem: </string>
+                     <string name="saved_successfully">Salvo com sucesso</string>  
+                     <string name="called_to">Called to</string>  
+                     <string name="date">Data</string>  
+                     <string name="duration">Duração :</string>  
+                     <string name="cost">Custo : </string>  
+                           <string name="amount">Quantia</string>    
+           <string name="null_recived_from_server">Null Recieved from server</string>   
+           <string name="network_fluctuating">Não está pronto para chamar, Rede instável / indisponível !</string> 
+    <!-- Local Access Settings -->
+    <string name="auto_login_title">Auto Login</string>
+    <string name="auto_login_summery">To loged in automatically</string>
+    <string name="calling_card_setting">Calling Card Settings</string>
+    <string name="access_no_title">Número de Acesso</string>
+    <string name="access_no_summery">Access number not set</string>
+    <string name="pause_before_title">Tempo de pausa antes IVR</string>
+    <string name="pause_before_summery" />
+    <string name="pause_after_title">Pause Time After PIN</string>
+    <string name="pause_after_summery" />
+    <string name="auto_pin_title">Enable Auto PIN Dial</string>
+    <string name="auto_pin_summery" />
+    <string name="pin_title">Pin Number</string>
+    <string name="pin_summery" />
+    <!--  -->
+    <string name="change_api"><u>Change API</u></string>
+    <string name="feedback_email">info@---.com</string>
+    <string name="feedback_subject">FD SkipRoaming</string>
+
+    <string-array name="amount">
+        <item>1 USD</item>
+        <item>2 USD</item>
+        <item>5 USD</item>
+        <item>10 USD</item>
+        <item>15 USD</item>
+        <item>20 USD</item>
+        <item>25 USD</item>
+        <item>50 USD</item>
+    </string-array>
+
+    <string name="init">Init…</string>
+    <string name="unable_to_download_file">Unable to download file</string>
+    <string name="connection_not_valid">Selected network route not allowed with current settings you have setup</string>
+    <string name="invalid_sip_uri">Sip uri is invalid for call</string>
+    <string name="accounts">Conta</string>
+    <string name="other_accounts">Other accounts</string>
+    <string name="activate_account">Activate account</string>
+    <string name="deactivate_account">Deactivate account</string>
+    <string name="delete_account">Delete account</string>
+    <string name="modify_account">Modify account</string>
+    <string name="add_account">Add account</string>
+    <string name="choose_wizard">Choose wizard</string>
+    <string name="use">Utilizad:</string>
+    <string name="use_pstn">Use mobile</string>
+    <string name="use_skype">Use Skype</string>
+    <string name="ongoing_call">Chamada em curso</string>
+    <string name="missed_call">Missed call</string>
+    <string name="recentCalls_empty">No Call Logs</string>
+    <string name="filters">Filters</string>
+    <string name="filters_desc">To apply when integration to Android is used</string>
+    <string name="filters_for">Filters for</string>
+    <string name="add_filter">Add filter / rewrite rule</string>
+    <string name="delete_filter">Delete filter</string>
+    <string name="callLog_delete_entry">Delete this call</string>
+    <string name="callLog_delete_all">Delete all calls</string>
+    <string name="callLog_delDialog_title">Delete Call Logs</string>
+    <string name="callLog_delDialog_message">Are you sure you want to delete all calls from the log?</string>
+    <string name="callLog_delDialog_yes">Sim</string>
+    <string name="callLog_delDialog_no">não</string>
+    <string name="gsm">Mobile</string>
+    <string name="dial_tab_name_text">Digite</string>
+    <string name="calllog_tab_name_text">CallLogs</string>
+    <string name="messages_tab_name_text">Mensagem</string>
+    <string name="menu_disconnect">	Exit</string>
+    <string name="service_ticker_registered_text">Registered</string>
+    <string name="outgoing_call_chooser_call_text">Chamada</string>
+    <string name="reorder">Reorder</string>
+    <string name="backup_restore">Backup / Restore</string>
+    <string name="backup">Backup</string>
+    <string name="faq">FAQ</string>
+    <string name="help">ajudar</string>
+    <string name="record_logs">Record logs to send it to dev team and report a bug</string>
+    <string name="send_logs">Stop recording logs (OPTIONALY send it)</string>
+    <string name="view_existing_issues">Consult existing issues</string>
+    <string name="ok">OK</string>
+    <string name="misc">Misc</string>
+    <string name="warning">WARNING</string>
+    <string name="disconnect_and_incoming_explaination">You are configured to be available for this network !!! By clicking OK here you confirm that you don\'t want to be available until next start of the application</string>
+    <string name="gadget_title">SIP Account switcher</string>
+    <string name="pickup_sip_uri">Pickup SIP contact</string>
+    <string name="display_icon_in_status_bar_desc">Should the application display an icon in the status bar when registered</string>
+    <string name="display_icon_in_status_bar">Display icon in status bar</string>
+    <string name="another_application_use_sip_port">Another application is currently using SIP port! Can\'t start !!!</string>
+    <string name="choose_phone">Choose phone</string>
+    <string name="no_phone_found">No phone found for this contact</string>
+    <string name="show_password">Show password</string>
+    <string name="this_codec_is_not_free">**This codec is not free !!!**\nPlease ensure that somebody (your SIP provider or yourself) have purchased a license that allow you to use this codec! We (as application distributors) are not responsible for an illegal use of this codec.\nIt\'s up to you to be sure that you are authorized to use this codec.\nPurchase link : </string>
+    <string name="voice_mail">Voice mail</string>
+    <string name="voice_mail_number">VM number</string>
+    <string name="type_sip_uri_or_autocomplete">Sip uri or autocomplete</string>
+    <string name="not_configured_multiple_calls">The application is not configured to allow multiple calls</string>
+    <string name="legal_information">Legal information</string>
+    <string name="update_nightly_build">Update nightly build</string>
+    <string name="loading">Loading</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="switch_to_text">Switch to text mode</string>
+    <string name="switch_to_digit">Switch to digit mode</string>
+    <string name="no_voice_mail_configured">No voicemail configured</string>
+    <string name="no_accounts">No accounts</string>
+    <string name="activate">Activate</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="invert_selection">Invert selection</string>
+    <string name="cant_write_file">Error writing file</string>
+    <string name="info">Info</string>
+    <!-- Presence stuff -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="away">Away</string>
+    <string name="busy">Busy</string>
+    <string name="activate_presence_sharing">Share presence</string>
+    <string name="deactivate_presence_sharing">Stop sharing presence</string>
+    <string name="presence">Presence</string>
+    <string name="set_android_group">Choose android group</string>
+    <string name="uri_nbr">Phone number</string>
+    <string name="uri_im">IM with custom SIP scheme</string>
+    <string name="set_sip_data">Choose sip uri data</string>
+    <string name="permdesc_configureSip">Usar sip</string>
+    <string name="permlab_useSip">Usar sip</string>
+    <string name="permdesc_useSip">Usar sip</string>
+    <string name="permlab_configureSip">Usar sip</string>
+    <!--  -->
+    <string name="acct_inactive">Onaktief</string>
+    <string name="acct_unregistered">Nie Geregistreer Nie</string>
+    <string name="acct_expired">Registrasie het verval</string>
+    <string name="acct_registering">Registreer…</string>
+    <string name="acct_registered">Geregistreer</string>
+    <string name="acct_regerror">Fout met registrasie</string>
+    <string name="title_activity_mang_account">Gerir conta</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+ <string name="error_message">Sem conexão de Internet ativa</string>   
+    <string name="registed">registrado</string>
+    <string name="unregister">não registado</string>
+</resources>

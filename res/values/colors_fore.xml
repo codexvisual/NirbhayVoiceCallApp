@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Foreground Colors !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <!-- prefix-=f -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@common Screen@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <color name="application_red">#ee3324</color>
+    <color name="application_black">#242021</color>
+
+    <color name="application_blue">#658CB3</color>
+    <color name="application_light_blue">#9FC0E2</color>
+    <color name="application_orange">#FF8041</color>
+
+
+    <color name="dark_orange">#F69C10</color>
+    <color name="ligh_orange">#FAB13F</color>
+    <color name="light_gray">#FFAAAAAA</color>
+    <color name="dark_gray">#492E04</color>
+    <color name="ap_green">#339933</color>
+
+    <color name="f_com_lbl">#ffffffff</color> <!-- welcome uri lbl, -->
+    <color name="f_com_txt">@color/f_com_lbl</color> <!-- welcome txt, -->
+    <color name="f_com_hint">#ffaaaaaa</color> <!-- welcome hint, -->
+    <color name="f_com_button">@color/f_com_lbl</color> <!-- welcome next btn, -->
+    <color name="f_com_powered">#002233</color>
+    <color name="f_com_link">#003399</color>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Welcome Screen@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <color name="f_wel_uri_text">#ff000000</color>
+    <color name="f_wel_uri_hint">#FFAAAAAA</color>
+    <color name="f_wel_eg">@color/f_wel_uri_text</color>
+    <color name="f_wel_urilbl">@color/f_wel_uri_text</color>
+    <color name="f_wel_nextbtn">@color/f_com_lbl</color>
+    <color name="f_wel_ins_head">@color/f_com_lbl</color>
+    <color name="f_wel_ins">@color/f_wel_uri_hint</color>
+    <color name="f_wel_wn_head">@color/f_com_lbl</color>
+    <color name="f_wel_wn">@color/f_wel_uri_hint</color>
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@InCall Screen@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <color name="f_incall_dissconnect">#ffff</color>
+  
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Login Screen@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- Enabled & Normal -->
+
+    <color name="f_login_pan_text">@color/f_wel_uri_text</color>
+    <color name="f_login_url">#ffff</color>
+    <color name="f_login_edit_txt">@color/f_wel_uri_text</color>
+    <color name="orange_color">#F69C10</color>
+    <!-- Disabled -->
+    <!-- Validation -->
+    <color name="fv_login">#ff0000</color>
+    <!-- Hints -->
+    <color name="fh_login_edit_txt">#fccc</color>
+    <!-- Edittext background -->
+
+    <color name="ed_strk_blue5DBDE7">#555DBDE7</color>
+    <!--<color name="grayA9A9A9">#f000</color>-->
+
+    <!-- ########################################Dialpad ##################################################### -->
+    <color  name="fdialpad_balance">@color/f_wel_uri_text</color>
+    <color name="fdialpad_edittext">#ffff</color>
+    <color name="fdialpad_balence_pan">#ffff</color>
+    <color name="fdialpad_call_button">#ffff</color>
+    <color name="fdialpad_callback_button">#ffff</color>
+    <!-- ########################################Call Log Screen ##################################################### -->
+    <!-- ########################################Call Details Screen ##################################################### -->
+    <!-- ########################################Phonebook Screen##################################################### -->
+    <!-- ########################################Fev Screen ##################################################### -->
+    <!-- ########################################Menue Screen##################################################### -->
+    <!-- ########################################Dialog Type one ##################################################### -->
+    <!-- ########################################Dialog Type two##################################################### -->
+    <!-- ########################################Misc Screen ##################################################### -->
+    <!-- ########################################IN Call Screen ##################################################### -->
+    <!-- ########################################Out Call Screen ##################################################### -->
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical" >
+
+    
+    <Button
+        android:id="@+id/local_access_call"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:background="@drawable/bg_menu"
+    	android:textColor="#000000"
+        android:padding="5dp"
+        android:layout_marginTop="16dp"
+    	style="?android:attr/buttonStyle"
+        android:layout_marginBottom="4dp"
+        android:text="@string/local_access" />
+
+    <Button
+        android:id="@+id/voip_call"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:padding="5dp"
+    	android:background="@drawable/bg_menu"
+    	style="?android:attr/buttonStyle"
+    	android:textColor="#000000"
+        android:text="@string/voipcall" />
+
+</LinearLayout>

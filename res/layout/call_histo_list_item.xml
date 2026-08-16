@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlHistItem"
+    android:background="@drawable/sltr_refillhisto_item"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="10dip" >
+
+    <TextView
+        android:id="@+id/calledto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:text="Called to "
+        android:textColor="@color/application_blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="7dp"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="Call"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@color/application_orange"
+        android:typeface="serif" />
+    <!-- *************************************************************************************** -->
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calledto"
+        android:gravity="left"
+        android:text="Date"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:typeface="serif" />
+    <!-- *************************************************************************************** -->
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/date"
+        android:layout_toRightOf="@+id/calledto"
+        android:gravity="left"
+        android:text="Duration"
+        android:textColor="#000"
+        android:textSize="18sp"
+
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/duration"
+        android:gravity="left"
+        android:text="Cost"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:typeface="serif" />
+    <TextView
+        android:id="@+id/textmsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/duration"
+        android:gravity="left"
+        android:text="@string/cost"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:typeface="serif" />
+    <TextView
+        android:id="@+id/destination"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cost"
+        android:gravity="left"
+        android:text="destination"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</RelativeLayout>

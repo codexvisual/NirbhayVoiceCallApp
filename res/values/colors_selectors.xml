@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Selector Colors !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <!-- prefix= s -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Login Screen @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login, DialPad/CallLog/FevCall/Contact Call  Button State  Normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_login_btn_color">
+        <item format="color">#EEEF0000</item>
+        <item format="color">#EEFF1919</item>
+        <item format="color">#EECF0000</item>
+    </array>
+
+    <color name="s0_login_btn_strk">#CF111C</color>
+
+    <item name="st0_login_btn" format="integer" type="integer">0</item>
+
+    <integer-array name="rd0_login_btn">
+        <item>0</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login, DialPad/CallLog/FevCall/Contact Call  Button State  Pressed ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s1_login_btn_color">
+        <item format="color">#CCFF3300</item>
+        <item format="color">#CCFF5C33</item>
+        <item format="color">#CCE62E00</item>
+    </array>
+
+    <color name="s1_login_btn_strk">#CF111C</color>
+
+    <item name="st1_login_btn" format="integer" type="integer">0</item>
+
+    <integer-array name="rd1_login_btn">
+        <item>0</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login, DialPad/CallLog/FevCall/Contact Call Button State  Dissabled~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s2_login_btn_color">
+         <item format="color">#CCE60000</item>
+        <item format="color">#CCFF1919</item>
+        <item format="color">#CCCC0000</item>
+    </array>
+
+    <color name="s2_login_btn_strk">#CF111C</color>
+
+    <item name="st2_login_btn" format="integer" type="integer">0</item>
+
+    <integer-array name="rd2_login_btn">
+        <item>0</item>
+    </integer-array>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login PAN Edit Text State  Normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_login_edt_txt_color">
+        <item format="color">#55ffffff</item>
+        <item format="color">#55ffffff</item>
+    </array>
+
+    <color name="s0_login_edt_txt_strk">#55ffffff</color>
+
+    <item name="st0_login_edt_txt" format="integer" type="integer">1</item>
+
+    <integer-array name="rd0_login_edt_txt">
+        <item>2</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login PAN Edit Text State  Pressed ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s1_login_edt_txt_color">
+        <item format="color">#55ffffff</item>
+        <item format="color">#55ffffff</item>
+    </array>
+
+    <color name="s1_login_edt_txt_strk">#FF5DBDE7</color>
+
+    <item name="st1_login_edt_txt" format="integer" type="integer">1</item>
+
+    <integer-array name="rd1_login_edt_txt">
+        <item>2</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login PAN Edit Text State  Dissabled~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s2_login_edt_txt_color">
+        <item format="color">#55ffffff</item>
+        <item format="color">#55ffffff</item>
+    </array>
+
+    <color name="s2_login_edt_txt_strk">#aaaaaaaa</color>
+
+    <item name="st2_login_edt_txt" format="integer" type="integer">1</item>
+
+    <integer-array name="rd2_login_edt_txt">
+        <item>2</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login PAN State  Normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_login_pan_color">
+        <item format="color">#88222222</item>
+        <item format="color">#88222222</item>
+    </array>
+
+    <color name="s0_login_pan_strk">#88222222</color>
+
+    <item name="st0_login_pan" format="integer" type="integer">1</item>
+
+    <integer-array name="rd0_login_pan">
+        <item>6</item>
+    </integer-array>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Menue Screen @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Menu,Fev,Contacts ITEMs State  Normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_menu_item_color">
+        <item format="color">#cce9f1eF</item>
+        <item format="color">#ccd4d4d3</item>
+        <item format="color">#ccaFb0b0</item>
+    </array>
+
+    <color name="st0_menu_item">#cceDe9e9</color>
+
+    <item name="sw0_menu_item" format="integer" type="integer">1</item>
+
+    <integer-array name="rd0_menu_item">
+        <item>1</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Menu,Fev,Contacts ITEMs State  Pressed ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s1_menu_item_color">
+      <item format="color">#EEe9f1eF</item>
+        <item format="color">#EEd4d4d3</item>
+        <item format="color">#EEaFb0b0</item>
+    </array>
+
+    <color name="st1_menu_item">#EE999999</color>
+
+    <item name="sw1_menu_item" format="integer" type="integer">1</item>
+
+    <integer-array name="rd1_menu_item">
+        <item>1</item>
+    </integer-array>
+
+    <!-- ########################################Dialpad Edit text ##################################################### -->
+    <!-- State 0 -->
+    <color name="edt_color_en_start">#Ffff</color>
+    <color name="edt_color_en_mid">#FFFF</color>
+    <color name="edt_color_en_end">#Ffff</color>
+    <color name="edt_color_en_stroke">#FFFF</color>
+    <!-- State 1 -->
+    <!-- ########################################Dialpad Delete Button ##################################################### -->
+    <!-- State 0 -->
+    <color name="dialpad_delete_0_strt">#FF00</color>
+    <color name="dialpad_delete_0_mid">#Fc22</color>
+    <color name="dialpad_delete_0_end">#FF00</color>
+    <color name="dialpad_delete_0_stroke">#Ff22</color>
+    <!-- State 1 -->
+    <color name="dialpad_delete_1_strt">#Ff33</color>
+    <color name="dialpad_delete_1_mid">#Ff33</color>
+    <color name="dialpad_delete_1_end">#Ff33</color>
+    <color name="dialpad_delete_1_stroke">#FF44</color>
+    <!-- ########################################Dialpad Dial Button ##################################################### -->
+    <!-- State 0 enabled -->
+    <color name="btn_color_blue_en_start">#ffee0000</color>
+    <color name="btn_color_blue_en_mid">#ffaa0000</color>
+    <color name="btn_color_blue_en_end">#ffee0000</color>
+    <!-- State 3 disabled -->
+    <color name="btn_color_blue_dis_start">#ffff3333</color>
+    <color name="btn_color_blue_dis_mid">#ffee3333</color>
+    <color name="btn_color_blue_dis_end">#ffff3333</color>
+    <!-- State 2 Presed -->
+    <color name="btn_color_blue_press_start">#ffff5555</color>
+    <color name="btn_color_blue_press_end">#ffff8888</color>
+
+    <!-- ########################################Dialpad Dialer Digits ##################################################### -->
+    <!-- ########################################Dialpad Call Button ##################################################### -->
+    <!-- ########################################Dialpad CallBack ##################################################### -->
+
+</resources>

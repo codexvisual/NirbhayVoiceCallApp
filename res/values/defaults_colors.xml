@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Button -->
+    <color name="button_default_text">#ffffffff</color>
+    <color name="button_default_lyr_back">#549820</color>
+    <color name="button_default_nor_start">#69BE28</color>
+    <color name="button_default_nor_end">#69BE28</color>
+    <color name="button_default_nor_mid">#4A851C</color>
+    
+    <color name="button_default_pressed_start">#4A851C</color>
+    <color name="button_default_pressed_end">#4A851C</color>
+    <color name="button_default_pressed_mid">#3F7218</color>
+    
+    <color name="button_default_dissabled_start">#87CB53</color>
+    <color name="button_default_dissabled_end">#87CB53</color>
+    <color name="button_default_dissabled_mid">#69BE28</color>
+
+    <!-- Action bar -->
+    <color name="light_orange">#FF7317</color>
+    <color name="ab_default_text">#ffffffff</color>
+    <color name="ab_default_lyr_back">#280252</color>
+    <color name="ab_default_nor_start">#7225c3</color>
+    <color name="ab_default_nor_end">#7225c3</color>
+    <color name="ab_default_nor_mid">#7225c3</color>
+
+    <color name="ab_default_pressed_start">#823BD1</color>
+    <color name="ab_default_pressed_end">#823BD1</color>
+    <color name="ab_default_pressed_mid">#823BD1</color>
+
+
+    <color name="ab_default_selected_start">#4C0182</color>
+    <color name="ab_default_selected_end">#4C0182</color>
+    <color name="ab_default_selected_mid">#4C0182</color>
+    <color name="ab_default_selected_bottom">#EDB4EC</color>
+
+    <!-- Edit Text Colors -->
+    <color name="edittext_default_text">#ff003300</color>
+    <color name="edittext_default_backgrount">#FFFFFFFF</color>
+    <color name="edit_text_default_strok">#FF69BE28</color>
+    <!-- Sip Home -->
+    <color name="balance_bar_bg_color">#FF000000</color>
+    <!-- DialPad -->
+    <color name="callbar_backgroubnd">#FF000000</color>
+    <color name="dialpad_background_color">#FF000000</color>
+    <!-- Dialpad btn -->
+    <color name="dialpad_default_nor_start">#0875C6</color>
+    <color name="dialpad_default_nor_end">#399EDE</color>
+    <color name="dialpad_default_nor_mid">#0875C6</color>
+    <color name="dialpad_default_nor_strok">#ff666666</color>
+    <!--  -->
+    <color name="dialpad_default_pressed_start">#1C8ADC</color>
+    <color name="dialpad_default_pressed_end">#55B0E6</color>
+    <color name="dialpad_default_pressed_mid">#1C8ADC</color>
+    <color name="dialpad_default_pressed_strok">#ff666666</color>
+      <!--  -->
+    <color name="dialpad_default_dissabled_start">#1C8ADC</color>
+    <color name="dialpad_default_dissabled_end">#1C8ADC</color>
+    <color name="dialpad_default_dissabled_mid">#0875C6</color>
+    <color name="dialpad_default_dissabled_strok">#CF111C</color>
+      <!-- Call2 btn -->
+    <color name="call2_default_nor_start">#2B7614</color>
+    <color name="call2_default_nor_end">#87CE3E</color>
+    <color name="call2_default_nor_mid">#2B7614</color>
+    <color name="call2_default_nor_strok">#59D136</color>
+    <!--  -->
+    <color name="call2_default_pressed_start">#33750D</color>
+    <color name="call2_default_pressed_end">#43A80A</color>
+    <color name="call2_default_pressed_mid">#33750D</color>
+    <color name="call2_default_pressed_strok">#CF111C</color>
+        <!--  -->
+    <color name="call2_default_dissabled_start">#5A9819</color>
+    <color name="call2_default_dissabled_end">#89CE3E</color>
+    <color name="call2_default_dissabled_mid">#5A9819</color>
+    <color name="call2_default_dissabled_strok">#CF111C</color>
+     <!-- Setting BG -->
+     <color name="setting_bg_default_nor_start">#FFFFFF</color>
+    <color name="setting_bg_default_nor_end">#FFFFFF</color>
+    <color name="setting_bg_default_nor_mid">#FFFFFF</color>
+    <color name="setting_bg_default_nor_strok">#006DB6</color>
+    <!--  -->
+    <color name="setting_bg_default_pressed_start">#FFFFFF</color>
+    <color name="setting_bg_default_pressed_end">#FFFFFF</color>
+    <color name="setting_bg_default_pressed_mid">#FFFFFF</color>
+    <color name="setting_bg_default_pressed_strok">#006DB6</color>
+        <!--  -->
+    <color name="setting_bg_default_dissabled_start">#FFFFFF</color>
+    <color name="setting_bg_default_dissabled_end">#FFFFFF</color>
+    <color name="setting_bg_default_dissabled_mid">#FFFFFF</color>
+    <color name="setting_bg_default_dissabled_strok">#006DB6</color>
+    
+    
+     <!-- Call list BG -->
+    <color name="call_list_bg_default_nor_start">#FFFFFF</color>
+    <color name="call_list_bg_default_nor_end">#FFFFFF</color>
+    <color name="call_list_bg_default_nor_mid">#E6E6E6</color>
+    <color name="call_list_bg_default_nor_strok">#59D136</color>
+    <!--  -->
+    <color name="call_list_bg_default_pressed_start">#FFFFFF</color>
+    <color name="call_list_bg_default_pressed_end">#FFFFFF</color>
+    <color name="call_list_bg_default_pressed_mid">#E6E6E6</color>
+    <color name="call_list_bg_default_pressed_strok">#CF111C</color>
+        <!--  -->
+    <color name="call_list_bg_default_dissabled_start">#FFFFFF</color>
+    <color name="call_list_bg_default_dissabled_end">#FFFFFF</color>
+    <color name="call_list_bg_default_dissabled_mid">#E6E6E6</color>
+    <color name="call_list_bg_default_dissabled_strok">#CF111C</color>
+    
+    
+    <!-- Call Log -->
+    <color name="default_log_empty">#FF000000</color>
+    <!-- SipLogin -->
+    <color name="default_fore_text_color">#FF000000</color>
+    <color name="default_signup_text">#FF000000</color>
+    <color name="default_signu_link">#FF000066</color>
+    <!-- InCall -->
+    <color name="default_incall_title">#FFFFFFFF</color>
+    <!-- Login Pan -->
+    <color name="default_login_pan_start">#FFFFFFFF</color>
+    <color name="default_login_pan_end">#FFFFFFFF</color>
+    <color name="default_login_pan_mid">#FFFFFFFF</color>
+    <color name="default_login_pan_stroak">#FF666666</color>
+    <!-- Login Btn -->
+    <color name="default_login_btn_nor_start">#FF0000</color>
+    <color name="default_login_btn_nor_end">#FFFFFFFF</color>
+    <color name="default_login_btn_nor_mid">#ff6666</color>
+    <color name="default_login_btn_nor_stroak">#59D136</color>
+    <!--  -->
+    <color name="default_login_btn_pres_start">#CCFF3300</color>
+    <color name="default_login_btn_pres_end">#CCE62E00</color>
+    <color name="default_login_btn_pres_mid">#CCFF5C33</color>
+    <color name="default_login_btn_pres_stroak">#CF111C</color>
+    <!--  -->
+    <color name="default_login_btn_dis_start">#56C934</color>
+    <color name="default_login_btn_dis_end">#9ADF85</color>
+    <color name="default_login_btn_dis_mid">#78D45D</color>
+    <color name="default_login_btn_dis_stroak">#CF111C</color>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="account_inactive">#FF646464</color>
+    <color name="account_unregistered">#FFFFC200</color>
+    <color name="account_valid">#FF84E300</color>
+    <color name="account_error">#FFFF0F00</color>
+    <!--<color name="gray_4C4C4C">#FF4C4C4C</color>-->
+    <color name="gray_333333">#FF333333</color>
+    <color name="gray_DDD">#DDD</color>
+    <color name="call_log_fcolor">#ff003161</color>
+    <color name="call_log_bcolor">#aaffffff</color>
+    <!-- Incall (extensible_card) background color -->
+  <!--  <color name="gray_E5E5E5">#E5E5E5</color>
+   <color name="gray_DFDCDE">#DFDCDE</color>
+    <color name="gray_D6D4D5">#D6D4D5</color>-->
+
+    <!-- the background color used for unread conversation -->
+    <color name="unread_bgcolor">#ffffffff</color>
+    <color name="read_bgcolor">#ffeeeeee</color>
+
+    <drawable name="light_blue_background">#ffecfbff</drawable>
+
+    <!-- toggle buttons -->
+    <color name="tg_top_normal">#c9cccf</color>
+    <color name="tg_bottom_normal">#a9adb4</color>
+    <color name="tg_top_on">#4f8df1</color>
+    <color name="tg_bottom_on">#175cce</color>
+
+    <!-- Color of image view placeholder. -->
+    <color name="image_placeholder">#DDDDDD</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="btn_color_norm_start">#EBEBED</color>
+    <color name="btn_color_norm_end">#ffDAD8D9</color>
+    <color name="btn_color_orng_dis_start">#375982</color>
+    <color name="btn_color_orng_dis_mid">#375982</color>
+    <color name="btn_color_orng_dis_end">#17385F</color>
+    <color name="login_pan_border">#afff</color>
+    <color name="login_pan_button_border_en">#5fff</color>
+    <color name="login_pan_border_border_dis">#5fff</color>
+
+</resources>

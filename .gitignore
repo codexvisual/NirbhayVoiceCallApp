@@ -1,0 +1,13 @@
+bin/
+gen/
+build/
+out/
+*.class
+*.apk
+*.ap_
+local.properties
+.DS_Store
+.settings
+.classpath
+.project
+Thumbs.db

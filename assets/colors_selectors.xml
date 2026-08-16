@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Selector Colors !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <!-- prefix= s -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Login Screen @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login Button~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_login_btn_color">
+        <item format="color">#FF8533</item>
+        <item format="color">#FF6600</item>
+        <item format="color">#FF6600</item>
+    </array>
+    <array name="s1_login_btn_color">
+        <item format="color">#FF944D</item>
+        <item format="color">#E65C00</item>
+        <item format="color">#FF6600</item>
+    </array>
+    <array name="s2_login_btn_color">
+        <item format="color">#FFBF94</item>
+        <item format="color">#FF944D</item>
+        <item format="color">#FF944D</item>
+    </array>
+
+    <color name="stc0_login_btn_color">#CF111C</color>
+    <color name="stc1_login_btn_color">#FF6600</color>
+    <color name="stc2_login_btn_color">#FF944D</color>
+
+    <item name="stw0_login_btn_color" format="integer" type="integer">0</item>
+    <item name="stw1_login_btn_color" format="integer" type="integer">0</item>
+    <item name="stw2_login_btn_color" format="integer" type="integer">0</item>
+
+    <integer-array name="rd0_login_btn_color">
+        <item>7</item>
+    </integer-array>
+    <integer-array name="rd1_login_btn_color">
+        <item>7</item>
+    </integer-array>
+    <integer-array name="rd2_login_btn_color">
+        <item>7</item>
+    </integer-array>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login PAN Edit Text State  Normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_login_edt_txt_color">
+        <item format="color">#55ffffff</item>
+        <item format="color">#55ffffff</item>
+    </array>
+    <array name="s1_login_edt_txt_color">
+        <item format="color">#55ffffff</item>
+        <item format="color">#55ffffff</item>
+    </array>
+    <array name="s2_login_edt_txt_color">
+        <item format="color">#55ffffff</item>
+        <item format="color">#55ffffff</item>
+    </array>
+
+    <color name="stc0_login_edt_txt_color">#55ffffff</color>
+    <color name="stc1_login_edt_txt_color">#FF5DBDE7</color>
+    <color name="stc2_login_edt_txt_color">#aaaaaaaa</color>
+
+    <item name="stw0_login_edt_txt_color" format="integer" type="integer">1</item>
+    <item name="stw1_login_edt_txt_color" format="integer" type="integer">1</item>
+    <item name="stw2_login_edt_txt_color" format="integer" type="integer">1</item>
+
+    <integer-array name="rd0_login_edt_txt_color">
+        <item>2</item>
+    </integer-array>
+    <integer-array name="rd1_login_edt_txt_color">
+        <item>2</item>
+    </integer-array>
+    <integer-array name="rd2_login_edt_txt_color">
+        <item>2</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login PAN Bg State  Pressed ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <array name="s0_login_pan_color">
+        <item format="color">#BBFFFFFF</item>
+        <item format="color">#BBFFFFFF</item>
+    </array>
+
+    <color name="stc0_login_pan_color">#BBFFFFFF</color>
+
+    <item name="stw0_login_pan_color" format="integer" type="integer">1</item>
+
+    <integer-array name="rd0_login_pan_color">
+        <item>6</item>
+    </integer-array>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ DialPad Screen @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DialPad Call Button State  Normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_dial_pad_call_button">
+        <item format="color">#99D137</item>
+        <item format="color">#629013</item>
+        <item format="color">#7ABC0B</item>
+    </array>
+    <array name="s1_dial_pad_call_button">
+        <item format="color">#45650D</item>
+        <item format="color">#4E730F</item>
+        <item format="color">#629013</item>
+    </array>
+    <array name="s2_dial_pad_call_button">
+        <item format="color">#729B2B</item>
+        <item format="color">#91B15A</item>
+        <item format="color">#729B2B</item>
+    </array>
+
+    <color name="stc0_dial_pad_call_button">#629013</color>
+    <color name="stc2_dial_pad_call_button">#729B2B</color>
+    <color name="stc1_dial_pad_call_button">#45650D</color>
+
+    <item name="stw0_dial_pad_call_button" format="integer" type="integer">0</item>
+    <item name="stw1_login_btn" format="integer" type="integer">0</item>
+    <item name="stw2_dial_pad_call_button" format="integer" type="integer">0</item>
+
+    <integer-array name="rd0_dial_pad_call_button">
+        <item>7</item>
+    </integer-array>
+    <integer-array name="rd1_dial_pad_call_button">
+        <item>7</item>
+    </integer-array>
+    <integer-array name="rd2_dial_pad_call_button">
+        <item>7</item>
+    </integer-array>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DialPad Button State  Normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_dial_pad_button">
+        <item format="color">#EEF4F7</item>
+        <item format="color">#B5C6CF</item>
+        <item format="color">#D8E9F4</item>
+    </array>
+    <array name="s1_dial_pad_button">
+        <item format="color">#AAE2FF</item>
+        <item format="color">#85D6FF</item>
+        <item format="color">#85D6FF</item>
+    </array>
+    <array name="s2_dial_pad_button">@s1_dial_pad_button</array>
+
+    <color name="stc0_dial_pad_button">#B5C6CF</color>
+    <color name="stc1_dial_pad_button">#CF111C</color>
+    <color name="stc2_dial_pad_button">#CF111C</color>
+
+    <item name="stw0_dial_pad_button" format="integer" type="integer">0</item>
+    <item name="stw1_login_btn" format="integer" type="integer">0</item>
+    <item name="stw2_dial_pad_button" format="integer" type="integer">0</item>
+
+    <integer-array name="rd0_dial_pad_button">
+        <item>0</item>
+    </integer-array>
+    <integer-array name="rd1_dial_pad_button">
+        <item>0</item>
+    </integer-array>
+    <integer-array name="rd2_dial_pad_button">
+        <item>0</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Refill~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_refill">
+        <item format="color">#FFE7B9</item>
+        <item format="color">#FFCC67</item>
+        <item format="color">#FFAD0B</item>
+    </array>
+
+    <color name="stc0_refill">#E0C397</color>
+
+    <item name="stw0_refill" format="integer" type="integer">1</item>
+
+    <integer-array name="rd0_refill">
+        <item>8</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Refill~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s1_refill">
+        <item format="color">#FDC866</item>
+        <item format="color">#F09E4D</item>
+        <item format="color">#E37535</item>
+    </array>
+
+    <color name="stc1_refill">#DEB061</color>
+
+    <item name="stw1_login_btn" format="integer" type="integer">1</item>
+
+    <integer-array name="rd1_refill">
+        <item>8</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Refill~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s2_refill">
+        <item format="color">#FFE16A</item>
+        <item format="color">#FFDE58</item>
+        <item format="color">#FFDA45</item>
+    </array>
+
+    <color name="stc2_refill">#E6C43E</color>
+
+    <item name="stw2_refill" format="integer" type="integer">1</item>
+
+    <integer-array name="rd2_refill">
+        <item>8</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Pay PAN State  Normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_pay">
+        <item format="color">#AAFFFFFF</item>
+        <item format="color">#AAFFFFFF</item>
+    </array>
+
+    <color name="stc0_pay">#AACCCCCC</color>
+
+    <item name="stw0_pay" format="integer" type="integer">1</item>
+
+    <integer-array name="rd0_pay">
+        <item>8</item>
+    </integer-array>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Menue Screen @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Menu,Fev,Contacts ITEMs State  Normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s0_menu_item_color">
+        <item format="color">#cce9f1eF</item>
+        <item format="color">#ccd4d4d3</item>
+        <item format="color">#ccaFb0b0</item>
+    </array>
+
+    <color name="stc0_menu_item_color">#cceDe9e9</color>
+
+    <item name="stw0_menu_item_color" format="integer" type="integer">1</item>
+
+    <integer-array name="rd0_menu_item_color">
+        <item>1</item>
+    </integer-array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Menu,Fev,Contacts ITEMs State  Pressed ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <array name="s1_menu_item_color">
+        <item format="color">#EEe9f1eF</item>
+        <item format="color">#EEd4d4d3</item>
+        <item format="color">#EEaFb0b0</item>
+    </array>
+
+    <color name="stc1_menu_item_color">#EE999999</color>
+
+    <item name="stw1_menu_item_color" format="integer" type="integer">1</item>
+
+    <integer-array name="rd1_menu_item_color">
+        <item>1</item>
+    </integer-array>
+
+</resources>

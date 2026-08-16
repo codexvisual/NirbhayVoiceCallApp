@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     This file is part of CSipSimple.
+
+    CSipSimple is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    CSipSimple is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with CSipSimple.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+   <string  name="access_empty">Select Country First</string>
+    <string name="w_common_display_name">Account name</string>
+    <string name="w_common_display_name_desc">Display name for this account</string>
+    <string name="w_common_username">User name</string>
+    <string name="w_common_username_desc">Sip account login (do not write the @sip.server)</string>
+    <string name="w_common_phone_number">Phone number</string>
+    <string name="w_common_phone_number_desc">Sip phone number given by your provider</string>
+    <string name="w_common_password">Password</string>
+    <string name="w_common_password_desc">Password for your account</string>
+    <string name="w_common_server">Server</string>
+    <string name="w_common_server_desc">SIP server domain/IP[:port]</string>
+    <string name="w_common_api">Balance URL</string>
+    <string name="w_common_api_desc">If Server IP and Balance URL is diffrent</string>
+     <string name="w_common_accesscountry">Select Country for Access Number</string>
+    <string name="w_common_accesscountry_sp">Seleccionar País de Número de Acceso</string>
+    <string name="w_common_accesscountry_port">Selecione o país para o Número de Acesso</string>
+    <string name="w_common_language">Select Language</string>
+    <string name="w_common_language_sp">Select Language.</string>
+    <string name="w_common_language_port">Seleccione Idioma</string>
+      <string name="w_common_accessnumber">Calling Card Access Number.</string>
+    <string name="w_common_time_before">Minium value is 2 second.</string>
+    <string name="w_common_time_after">Minium value is 4 second.</string>
+    <string name="w_common_autopin">Automatically dials pin before IVR play.</string>
+    <string name="w_common_pin">Pin number for your calling Card.</string>
+    
+    <string name="create_account">Create account</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email_address">Email address</string>
+    <string name="captcha">Captcha</string>
+    <string name="country_code">Country code</string>
+    <string name="password">Password</string>
+    <string name="mobile_no">Moblile No.</string>
+    <string name="mobile_no_hint">In international format \: i\.e\. 0012127773456</string>
+    <string name="app_email">Email Id.</string>
+    <string name="users_id">User Id.</string>
+    <string name="app_currency">Currency</string>
+</resources>

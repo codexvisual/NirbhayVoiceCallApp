@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="@color/application_orange">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Calling Option"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/application_light_blue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/application_blue"
+            android:gravity="center"
+            android:text="@string/voip_call1" />
+        <Button
+            android:id="@+id/sim"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/application_blue"
+            android:layout_gravity="center_horizontal"
+            android:text="Local Call" />
+
+
+        <Button
+            android:id="@+id/abroad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/call_when_abroad" />
+        <Button
+            android:id="@+id/sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="send sms" />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@color/application_orange"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

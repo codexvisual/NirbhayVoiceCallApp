@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Edit Text -->
+    <dimen name="edittext_default_horizontal_padding">5dp</dimen>
+    <dimen name="edittext_default_vertical_padding">7dp</dimen>
+    <dimen name="button_default_back_padding">2dp</dimen>
+    <!-- Button -->
+    <item name="button_default_nor_angle" format="integer" type="integer">90</item>
+    <item name="button_default_pressed_angle" format="integer" type="integer">90</item>
+    <item name="button_default_dissabled_angle" format="integer" type="integer">90</item>
+
+    <!-- ActionBar -->
+    <item name="ab_default_nor_angle" format="integer" type="integer">90</item>
+    <item name="ab_default_pressed_angle" format="integer" type="integer">90</item>
+    <item name="ab_default_selected_angle" format="integer" type="integer">90</item>
+
+    <dimen name="ab_default_back_padding">2dp</dimen>
+
+    <!-- ActionBar -->
+    <dimen name="ab_default_bottom_padding">5dp</dimen>
+    <dimen name="ab_default_bottom_nor_padding">2dp</dimen>
+    <!-- SipLogin -->
+    <dimen name="default_text_size">16dp</dimen>
+    <!-- DialPad -->
+    <dimen name="default_call_btn_txt">12dp</dimen>
+    <!-- Login  pAN -->
+    <dimen name="default_login_pan_drawable_strk_wdt">1dp</dimen>
+    <dimen name="default_login_pan_drawable_corner">8dp</dimen>
+    <!-- lOGIN bTN -->
+    <dimen name="default_login_btn_drawable_strk_wdt">0dp</dimen>
+    <dimen name="default_login_btn_drawable_corner">6dp</dimen>
+    <!-- Setting BG -->
+    <dimen name="default_setting_bg_drawable_strk_wdt">1dp</dimen>
+    <dimen name="default_setting_bg_drawable_corner">6dp</dimen>
+
+</resources>

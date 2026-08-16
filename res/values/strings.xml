@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_add">New conversation</string>
+    <string name="action_accounts">Manage accounts</string>
+    <string name="action_end_conversation">End this conversation</string>
+    <string name="action_contact_details">Contact details</string>
+    <string name="action_muc_details">Conference details</string>
+    <string name="action_secure">Secure conversation</string>
+    <string name="action_add_account">Add account</string>
+    <string name="action_edit_contact">Edit name</string>
+    <string name="action_add_phone_book">Add to phone book</string>
+    <string name="action_delete_contact">Delete from roster</string>
+    <string name="action_block_contact">Block contact</string>
+    <string name="action_unblock_contact">Unblock contact</string>
+    <string name="action_block_domain">Block domain</string>
+    <string name="action_unblock_domain">Unblock domain</string>
+    <string name="title_activity_manage_accounts">Manage Accounts</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_conference_details">Conference Details</string>
+    <string name="title_activity_contact_details">Contact Details</string>
+    <string name="title_activity_sharewith">Share with Conversation</string>
+    <string name="title_activity_start_conversation">Start Conversation</string>
+    <string name="title_activity_choose_contact">Choose contact</string>
+    <string name="title_activity_block_list">Block list</string>
+    <string name="just_now">just now</string>
+    <string name="minute_ago">1 min ago</string>
+    <string name="minutes_ago">%d mins ago</string>
+    <string name="unread_conversations">unread Conversations</string>
+    <string name="sending">sending…</string>
+    <string name="encrypted_message">Decrypting message. …</string>
+    <string name="nick_in_use">Nickname is already in use</string>
+    <string name="admin">Admin</string>
+    <string name="owner">Owner</string>
+    <string name="moderator">Moderator</string>
+    <string name="participant">Participant</string>
+    <string name="visitor">Visitor</string>
+    <string name="remove_contact_text">Would you like to remove %s from your roster? The conversation associated with this contact will not be removed.</string>
+    <string name="block_contact_text">Would you like to block %s from sending you messages?</string>
+    <string name="unblock_contact_text">Would you like to unblock %s and allow them to send you messages?</string>
+    <string name="block_domain_text">Block all contacts from %s?</string>
+    <string name="unblock_domain_text">Unblock all contacts from %s?</string>
+    <string name="contact_blocked">Contact blocked</string>
+    <string name="remove_bookmark_text">Would you like to remove %s as a bookmark? The conversation associated with this bookmark will not be removed.</string>
+    <string name="register_account">Register new account on server</string>
+    <string name="change_password_on_server">Change password on server</string>
+    <string name="share_with">Share with…</string>
+    <string name="start_conversation">Start Conversation</string>
+    <string name="invite_contact">Invite Contact</string>
+    <string name="set">Set</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="block">Block</string>
+    <string name="unblock">Unblock</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="crash_report_title">Conversations has crashed</string>
+    <string name="crash_report_message">By sending in stack traces you are helping the ongoing development of Conversations\n<b>Warning:</b> This will use your XMPP account to send the stack trace to the developer.</string>
+    <string name="send_now">Send now</string>
+    <string name="send_never">Never ask again</string>
+    <string name="problem_connecting_to_account">Unable to connect to account</string>
+    <string name="problem_connecting_to_accounts">Unable to connect to multiple accounts</string>
+    <string name="touch_to_fix">Touch here to manage your accounts</string>
+    <string name="attach_file">Attach file</string>
+    <string name="not_in_roster">The contact is not in your roster. Would you like to add it?</string>
+    <string name="add_contact">Add contact</string>
+    <string name="send_failed">delivery failed</string>
+    <string name="send_rejected">rejected</string>
+    <string name="preparing_image">Preparing image for transmission</string>
+    <string name="action_clear_history">Clear history</string>
+    <string name="clear_conversation_history">Clear Conversation History</string>
+    <string name="clear_histor_msg">Do you want to delete all messages within this Conversation?\n\n<b>Warning:</b> This will not influence messages stored on other devices or servers.</string>
+    <string name="delete_messages">Delete messages</string>
+    <string name="also_end_conversation">End this conversations afterwards</string>
+    <string name="choose_presence">Choose presence to contact</string>
+    <string name="send_plain_text_message">Send plain text message</string>
+    <string name="send_otr_message">Send OTR encrypted message</string>
+    <string name="send_pgp_message">Send OpenPGP encrypted message</string>
+    <string name="your_nick_has_been_changed">Your nickname has been changed</string>
+    <string name="download_image">Download Image</string>
+    <string name="send_unencrypted">Send unencrypted</string>
+    <string name="decryption_failed">Decryption failed. Maybe you don’t have the proper private key.</string>
+    <string name="openkeychain_required">OpenKeychain</string>
+    <string name="openkeychain_required_long">Conversations utilizes a third party app called <b>OpenKeychain</b> to encrypt and decrypt messages and to manage your public keys.\n\nOpenKeychain is licensed under GPLv3 and available on F-Droid and Google Play.\n\n<small>(Please restart Conversations afterwards.)</small></string>
+    <string name="restart">Restart</string>
+    <string name="install">Install</string>
+    <string name="offering">offering…</string>
+    <string name="waiting">waiting…</string>
+    <string name="no_pgp_key">No OpenPGP Key found</string>
+    <string name="contact_has_no_pgp_key">Conversations is unable to encrypt your messages because your contact is not announcing his or hers public key.\n\n<small>Please ask your contact to setup OpenPGP.</small></string>
+    <string name="no_pgp_keys">No OpenPGP Keys found</string>
+    <string name="contacts_have_no_pgp_keys">Conversations is unable to encrypt your messages because your contacts are not announcing their public key.\n\n<small>Please ask your contacts to setup OpenPGP.</small></string>
+    <string name="encrypted_message_received"><i>Encrypted message received. Touch to view and decrypt.</i></string>
+    <string name="pref_general">General</string>
+    <string name="pref_xmpp_resource">XMPP resource</string>
+    <string name="pref_xmpp_resource_summary">The name this client identifies itself with</string>
+    <string name="pref_accept_files">Accept files</string>
+    <string name="pref_accept_files_summary">Automatically accept files smaller than…</string>
+    <string name="pref_notification_settings">Notification Settings</string>
+    <string name="pref_notifications">Notifications</string>
+    <string name="pref_notifications_summary">Notify when a new message arrives</string>
+    <string name="pref_vibrate">Vibrate</string>
+    <string name="pref_vibrate_summary">Also vibrate when a new message arrives</string>
+    <string name="pref_sound">Sound</string>
+    <string name="pref_sound_summary">Play ringtone with notification</string>
+    <string name="pref_conference_notifications">Conference notifications</string>
+    <string name="pref_conference_notifications_summary">Always notify when a new conference message arrives instead of only when highlighted</string>
+    <string name="pref_notification_grace_period">Notification grace period</string>
+    <string name="pref_notification_grace_period_summary">Disable notifications for a short time after a carbon copy was received</string>
+    <string name="pref_advanced_options">Advanced Options</string>
+    <string name="pref_never_send_crash">Never send crash reports</string>
+    <string name="pref_never_send_crash_summary">By sending in stack traces you are helping the ongoing development of Conversations</string>
+    <string name="pref_confirm_messages">Confirm Messages</string>
+    <string name="pref_confirm_messages_summary">Let your contact know when you have received and read a message</string>
+    <string name="pref_ui_options">UI Options</string>
+    <string name="openpgp_error">OpenKeychain reported an error</string>
+    <string name="error_decrypting_file">I/O Error decrypting file</string>
+    <string name="accept">Accept</string>
+    <string name="error">An error has occurred</string>
+    <string name="pref_grant_presence_updates">Grant presence updates</string>
+    <string name="pref_grant_presence_updates_summary">Preemptively grant and ask for presence subscription for contacts you created</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="your_account">Your account</string>
+    <string name="keys">Keys</string>
+    <string name="send_presence_updates">Send presence updates</string>
+    <string name="receive_presence_updates">Receive presence updates</string>
+    <string name="ask_for_presence_updates">Ask for presence updates</string>
+    <string name="attach_choose_picture">Choose picture</string>
+    <string name="attach_take_picture">Take picture</string>
+    <string name="preemptively_grant">Preemptively grant subscription request</string>
+    <string name="error_not_an_image_file">The file you selected is not an image</string>
+    <string name="error_compressing_image">Error while converting the image file</string>
+    <string name="error_file_not_found">File not found</string>
+    <string name="error_io_exception">General I/O error. Maybe you ran out of storage space?</string>
+    <string name="error_security_exception_during_image_copy">The app you used to select this image did not provide us with enough permissions to read the file.\n\n<small>Use a different file manager to choose an image</small></string>
+    <string name="account_status_unknown">Unknown</string>
+    <string name="account_status_disabled">Temporarily disabled</string>
+    <string name="account_status_online">Online</string>
+    <string name="account_status_connecting">Connecting\u2026</string>
+    <string name="account_status_offline">Offline</string>
+    <string name="account_status_unauthorized">Unauthorized</string>
+    <string name="account_status_not_found">Server not found</string>
+    <string name="account_status_no_internet">No connectivity</string>
+    <string name="account_status_regis_fail">Registration failed</string>
+    <string name="account_status_regis_conflict">Username already in use</string>
+    <string name="account_status_regis_success">Registration completed</string>
+    <string name="account_status_regis_not_sup">Server does not support registration</string>
+    <string name="account_status_security_error">Security error</string>
+    <string name="account_status_incompatible_server">Incompatible server</string>
+    <string name="encryption_choice_none">Plain text</string>
+    <string name="encryption_choice_otr">OTR</string>
+    <string name="encryption_choice_pgp">OpenPGP</string>
+    <string name="mgmt_account_edit">Edit account</string>
+    <string name="mgmt_account_delete">Delete account</string>
+    <string name="mgmt_account_disable">Temporarily disable</string>
+    <string name="mgmt_account_publish_avatar">Publish avatar</string>
+    <string name="mgmt_account_publish_pgp">Publish OpenPGP public key</string>
+    <string name="mgmt_account_enable">Enable account</string>
+    <string name="mgmt_account_are_you_sure">Are you sure?</string>
+    <string name="mgmt_account_delete_confirm_text">If you delete your account your entire conversation history will be lost</string>
+    <string name="attach_record_voice">Record voice</string>
+    <string name="account_settings_jabber_id">Username</string>
+    <string name="account_settings_password">Password</string>
+    <string name="account_settings_example_jabber_id">username</string>
+    <string name="account_settings_confirm_password">Confirm password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="invalid_jid">This is not a valid Jabber ID</string>
+    <string name="error_out_of_memory">Out of memory. Image is too large</string>
+    <string name="add_phone_book_text">Do you want to add %s to your phones contact list?</string>
+    <string name="contact_status_online">online</string>
+    <string name="contact_status_free_to_chat">free to chat</string>
+    <string name="contact_status_away">away</string>
+    <string name="contact_status_extended_away">extended away</string>
+    <string name="contact_status_do_not_disturb">do not disturb</string>
+    <string name="contact_status_offline">offline</string>
+    <string name="muc_details_conference">Conference</string>
+    <string name="muc_details_other_members">Other Members</string>
+    <string name="server_info_show_more">Server info</string>
+    <string name="server_info_mam">XEP-0313: MAM</string>
+    <string name="server_info_carbon_messages">XEP-0280: Message Carbons</string>
+    <string name="server_info_csi">XEP-0352: Client State Indication</string>
+    <string name="server_info_blocking">XEP-0191: Blocking Command</string>
+    <string name="server_info_roster_version">XEP-0237: Roster Versioning</string>
+    <string name="server_info_stream_management">XEP-0198: Stream Management</string>
+    <string name="server_info_pep">XEP-0163: PEP (Avatars)</string>
+    <string name="server_info_available">available</string>
+    <string name="server_info_unavailable">unavailable</string>
+    <string name="missing_public_keys">Missing public key announcements</string>
+    <string name="last_seen_now">last seen just now</string>
+    <string name="last_seen_min">last seen 1 minute ago</string>
+    <string name="last_seen_mins">last seen %d minutes ago</string>
+    <string name="last_seen_hour">last seen 1 hour ago</string>
+    <string name="last_seen_hours">last seen %d hours ago</string>
+    <string name="last_seen_day">last seen 1 day ago</string>
+    <string name="last_seen_days">last seen %d days ago</string>
+    <string name="never_seen">never seen</string>
+    <string name="install_openkeychain">Encrypted message. Please install OpenKeychain to decrypt.</string>
+    <string name="unknown_otr_fingerprint">Unknown OTR fingerprint</string>
+    <string name="openpgp_messages_found">OpenPGP encrypted messages found</string>
+    <string name="reception_failed">Reception failed</string>
+    <string name="your_fingerprint">Your fingerprint</string>
+    <string name="otr_fingerprint">OTR fingerprint</string>
+    <string name="verify">Verify</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="conferences">Conferences</string>
+    <string name="search">Search</string>
+    <string name="create_contact">Add Friend</string>
+    <string name="join_conference">Join Conference</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="view_contact_details">View contact details</string>
+    <string name="block_contact">Block contact</string>
+    <string name="unblock_contact">Unblock contact</string>
+    <string name="create">Add</string>
+    <string name="contact_already_exists">The contact already exists</string>
+    <string name="join">Join</string>
+    <string name="conference_address">Conference address</string>
+    <string name="conference_address_example">room@conference.example.com</string>
+    <string name="save_as_bookmark">Save as bookmark</string>
+    <string name="delete_bookmark">Delete bookmark</string>
+    <string name="bookmark_already_exists">This bookmark already exists</string>
+    <string name="you">You</string>
+    <string name="action_edit_subject">Edit conference subject</string>
+    <string name="conference_not_found">Conference not found</string>
+    <string name="leave">Leave</string>
+    <string name="contact_added_you">Contact added you to contact list</string>
+    <string name="add_back">Add back</string>
+    <string name="contact_has_read_up_to_this_point">%s has read up to this point</string>
+    <string name="publish">Publish</string>
+    <string name="touch_to_choose_picture">Touch avatar to select picture from gallery</string>
+    <string name="publish_avatar_explanation">Please note: Everyone subscribed to your presence updates will be allowed to see this picture.</string>
+    <string name="publishing">Publishing…</string>
+    <string name="error_publish_avatar_server_reject">The server rejected your publication</string>
+    <string name="error_publish_avatar_converting">Something went wrong while converting your picture</string>
+    <string name="error_saving_avatar">Could not save avatar to disk</string>
+    <string name="or_long_press_for_default">(Or long press to bring back default)</string>
+    <string name="error_publish_avatar_no_server_support">Your server does not support the publication of avatars</string>
+    <string name="private_message">whispered</string>
+    <string name="private_message_to">to %s</string>
+    <string name="send_private_message_to">Send private message to %s</string>
+    <string name="connect">Connect</string>
+    <string name="account_already_exists">This account already exists</string>
+    <string name="next">Next</string>
+    <string name="server_info_session_established">Current session established</string>
+    <string name="additional_information">Additional Information</string>
+    <string name="skip">Skip</string>
+    <string name="disable_notifications">Disable notifications</string>
+    <string name="disable_notifications_for_this_conversation">Disable notifications for this conversation</string>
+    <string name="notifications_disabled">Notifications are disabled</string>
+    <string name="enable">Enable</string>
+    <string name="conference_requires_password">Conference requires password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="missing_presence_updates">Missing presence updates from contact</string>
+    <string name="request_presence_updates">Please request presence updates from your contact first.\n\n<small>This will be used to determine what client(s) your contact is using.</small></string>
+    <string name="request_now">Request now</string>
+    <string name="delete_fingerprint">Delete Fingerprint</string>
+    <string name="sure_delete_fingerprint">Are you sure you would like to delete this fingerprint?</string>
+    <string name="ignore">Ignore</string>
+    <string name="without_mutual_presence_updates"><b>Warning:</b> Sending this without mutual presence updates could cause unexpected problems.\n\n<small>Go to contact details to verify your presence subscriptions.</small></string>
+    <string name="pref_encryption_settings">Encryption settings</string>
+    <string name="pref_force_encryption">Force end-to-end encryption</string>
+    <string name="pref_force_encryption_summary">Always send messages encrypted (except for conferences)</string>
+    <string name="pref_dont_save_encrypted">Don’t save encrypted messages</string>
+    <string name="pref_dont_save_encrypted_summary">Warning: This could lead to message loss</string>
+    <string name="pref_expert_options">Expert options</string>
+    <string name="pref_expert_options_summary">Please be careful with these</string>
+    <string name="title_activity_about">About Conversations</string>
+    <string name="pref_about_conversations_summary">Build and licensing information</string>
+    <string name="pref_about_message" translatable="false">
+            Conversations • the very last word in instant messaging.
+            \n\nCopyright © 2014 Daniel Gultsch
+            \n\nThis program is free software: you can redistribute it and/or modify
+            it under the terms of the GNU General Public License as published by
+            the Free Software Foundation, either version 3 of the License, or
+            (at your option) any later version.
+            \n\nThis program is distributed in the hope that it will be useful,
+            but WITHOUT ANY WARRANTY; without even the implied warranty of
+            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+            GNU General Public License for more details.
+            \n\nYou should have received a copy of the GNU General Public License
+            along with this program. If not, see https://www.gnu.org/licenses
+            \n\nDownload the full source code at https://github.com/siacs/Conversations
+            \n\n\nLibraries
+            \n\nhttps://www.bouncycastle.org\n(The MIT License (MIT))
+            \n\nhttps://www.gnu.org/software/libidn\n(Apache License, Version 2.0)
+            \n\nhttps://github.com/ge0rg/MemorizingTrustManager\n(The MIT License (MIT))
+            \n\nhttps://github.com/rtreffer/minidns\n(WTFPL)
+            \n\nhttps://github.com/open-keychain/openkeychain-api-lib\n(Apache License, Version 2.0)
+            \n\nhttps://github.com/jitsi/otr4j\n(LGPL-3.0)
+            \n\nhttps://developer.android.com/tools/support-library\n(Apache License, Version 2.0)
+            \n\nhttps://github.com/zxing/zxing\n(Apache License, Version 2.0)
+            \n\nhttps://github.com/google/material-design-icons\n(CC BY 4.0)
+            \n\nhttps://github.com/timroes/EnhancedListView\n(Apache License, Version 2.0)
+    </string>
+    <string name="title_pref_quiet_hours">Quiet Hours</string>
+    <string name="title_pref_quiet_hours_start_time">Start time</string>
+    <string name="title_pref_quiet_hours_end_time">End time</string>
+    <string name="title_pref_enable_quiet_hours">Enable quiet hours</string>
+    <string name="pref_quiet_hours_summary">Notifications will be silenced during quiet hours</string>
+    <string name="pref_use_larger_font">Increase font size</string>
+    <string name="pref_use_larger_font_summary">Use larger font sizes across the entire app</string>
+    <string name="pref_use_send_button_to_indicate_status">Send button indicates status</string>
+    <string name="pref_use_indicate_received">Request message receipts</string>
+    <string name="pref_use_indicate_received_summary">Received messages will be marked with a green tick if supported</string>
+    <string name="pref_use_send_button_to_indicate_status_summary">Colorize send button to indicate contact status</string>
+    <string name="pref_expert_options_other">Other</string>
+    <string name="pref_conference_name">Conference name</string>
+    <string name="pref_conference_name_summary">Use room’s subject instead of JID to identify conferences</string>
+    <string name="toast_message_otr_fingerprint">OTR fingerprint copied to clipboard!</string>
+    <string name="conference_banned">You are banned from this conference</string>
+    <string name="conference_members_only">This conference is members only</string>
+    <string name="conference_kicked">You have been kicked from this conference</string>
+    <string name="using_account">using account %s</string>
+    <string name="checking_image">Checking image on HTTP host</string>
+    <string name="image_file_deleted">The image file has been deleted</string>
+    <string name="not_connected_try_again">You are not connected. Try again later</string>
+    <string name="check_image_filesize">Check image file size</string>
+    <string name="message_options">Message options</string>
+    <string name="copy_text">Copy text</string>
+    <string name="copy_original_url">Copy original URL</string>
+    <string name="send_again">Send again</string>
+    <string name="image_url">Image URL</string>
+    <string name="message_text">Message text</string>
+    <string name="url_copied_to_clipboard">URL copied to clipboard</string>
+    <string name="message_copied_to_clipboard">Message copied to clipboard</string>
+    <string name="image_transmission_failed">Image transmission failed</string>
+    <string name="scan_qr_code">Scan QR code</string>
+    <string name="show_qr_code">Show QR code</string>
+    <string name="show_block_list">Show block list</string>
+    <string name="account_details">Account details</string>
+    <string name="verify_otr">Verify OTR</string>
+    <string name="remote_fingerprint">Remote Fingerprint</string>
+    <string name="scan">scan</string>
+    <string name="or_touch_phones">(or touch phones)</string>
+    <string name="smp">Socialist Millionaire Protocol</string>
+    <string name="shared_secret_hint">Hint or Question</string>
+    <string name="shared_secret_secret">Shared Secret</string>
+    <string name="confirm">Confirm</string>
+    <string name="in_progress">In progress</string>
+    <string name="respond">Respond</string>
+    <string name="failed">Failed</string>
+    <string name="secrets_do_not_match">Secrets do not match</string>
+    <string name="try_again">Try again</string>
+    <string name="finish">Finish</string>
+    <string name="verified">Verified!</string>
+    <string name="smp_requested">Contact requested SMP verification</string>
+    <string name="no_otr_session_found">No valid OTR session has been found!</string>
+    <string name="conversations_foreground_service">Conversations</string>
+    <string name="pref_keep_foreground_service">Keep service in foreground</string>
+    <string name="pref_keep_foreground_service_summary">Prevents the operating system from killing your connection</string>
+    <string name="choose_file">Choose file</string>
+    <string name="receiving_x_file">Receiving %1$s (%2$d%% completed)</string>
+    <string name="download_x_file">Download %s</string>
+    <string name="file">file</string>
+    <string name="open_x_file">Open %s</string>
+    <string name="sending_file">sending (%1$d%% completed)</string>
+    <string name="preparing_file">Preparing file for transmission</string>
+    <string name="x_file_offered_for_download">%s offered for download</string>
+    <string name="cancel_transmission">Cancel transmission</string>
+    <string name="file_transmission_failed">file transmission failed</string>
+    <string name="file_deleted">The file has been deleted</string>
+    <string name="no_application_found_to_open_file">No application found to open file</string>
+    <string name="could_not_verify_fingerprint">Could not verify fingerprint</string>
+    <string name="manually_verify">Manually verify</string>
+    <string name="are_you_sure_verify_fingerprint">Are you sure that you want to verify your contacts OTR fingerprint?</string>
+    <string name="pref_show_dynamic_tags">Show dynamic tags</string>
+    <string name="pref_show_dynamic_tags_summary">Display read-only tags underneath contacts</string>
+    <string name="enable_notifications">Enable notifications</string>
+    <string name="conference_with">Create conference with…</string>
+    <string name="no_conference_server_found">No conference server found</string>
+    <string name="conference_creation_failed">Conference creation failed!</string>
+    <string name="conference_created">Conference created!</string>
+    <string name="secret_accepted">Secret accepted!</string>
+    <string name="reset">Reset</string>
+    <string name="account_image_description">Account avatar</string>
+    <string name="copy_otr_clipboard_description">Copy OTR fingerprint to clipboard</string>
+    <string name="fetching_history_from_server">Fetching history from server</string>
+    <string name="no_more_history_on_server">No more history on server</string>
+    <string name="updating">Updating…</string>
+    <string name="password_changed">Password changed!</string>
+    <string name="could_not_change_password">Could not change password</string>
+    <string name="otr_session_not_started">Send a message to start an encrypted chat</string>
+    <string name="ask_question">Ask question</string>
+    <string name="smp_explain_question">If you and your contact have a secret in common that no one else knows (like an inside joke or simply what you had for lunch the last time you met) you can use that secret to verify each other’s fingerprints.\n\nYou provide a hint or a question for your contact who will respond with a case-sensitive answer.</string>
+    <string name="smp_explain_answer">Your contact would like to verify your fingerprint by challenging you with a shared secret. Your contact provided the following hint or question for that secret.</string>
+    <string name="shared_secret_hint_should_not_be_empty">Your hint should not be empty</string>
+    <string name="shared_secret_can_not_be_empty">Your shared secret can not be empty</string>
+    <string name="manual_verification_explanation">Carefully compare the fingerprint shown below with the fingerprint of your contact.\nYou can use any trusted form of communication like an encrypted e-mail or a telephone call to exchange those.</string>
+	<string name="change_password">Change password</string>
+	<string name="current_password">Current password</string>
+	<string name="new_password">New password</string>
+	<string name="password_should_not_be_empty">Password should not be empty</string>
+	<string name="enable_all_accounts">Enable all accounts</string>
+	<string name="disable_all_accounts">Disable all accounts</string>
+	<string name="perform_action_with">Perform action with</string>
+	<string name="no_affiliation">No affiliation</string>
+	<string name="no_role">No role</string>
+	<string name="outcast">Outcast</string>
+	<string name="member">Member</string>
+	<string name="advanced_mode">Advanced mode</string>
+	<string name="grant_membership">Grant membership</string>
+	<string name="remove_membership">Revoke membership</string>
+	<string name="grant_admin_privileges">Grant admin privileges</string>
+	<string name="remove_admin_privileges">Revoke admin privileges</string>
+	<string name="remove_from_room">Remove from conference</string>
+	<string name="could_not_change_affiliation">Could not change affiliation of %s</string>
+	<string name="ban_from_conference">Ban from conference</string>
+	<string name="removing_from_public_conference">You are trying to remove %s from a public conference. The only way to do that is to ban that user for ever.</string>
+	<string name="ban_now">Ban now</string>
+	<string name="could_not_change_role">Could not change role of %s</string>
+	<string name="public_conference">Publicly accessible conference</string>
+	<string name="private_conference">Private, members only conference</string>
+	<string name="conference_options">Conference options</string>
+	<string name="members_only">Private (Members only)</string>
+	<string name="non_anonymous">Non-anonymous</string>
+	<string name="modified_conference_options">Modified conference options!</string>
+	<string name="could_not_modify_conference_options">Could not modify conference options</string>
+	<string name="never">Never</string>
+	<string name="thirty_minutes">30 minutes</string>
+	<string name="one_hour">1 hour</string>
+	<string name="two_hours">2 hours</string>
+	<string name="eight_hours">8 hours</string>
+	<string name="until_further_notice">Until further notice</string>
+	<string name="pref_input_options">Input options</string>
+	<string name="pref_enter_is_send">Enter is send</string>
+	<string name="pref_enter_is_send_summary">Use enter key to send message</string>
+	<string name="pref_display_enter_key">Show enter key</string>
+	<string name="pref_display_enter_key_summary">Change the emoticons key to an enter key</string>
+	<string name="image">image</string>
+	<string name="pdf_document">PDF document</string>
+	<string name="apk">Android App</string>
+	<string name="vcard">Contact</string>
+	<string name="received_x_file">Received %s</string>
+	<string name="disable_foreground_service">Disable foreground service</string>
+	<string name="touch_to_open_conversations">Touch to open Conversations</string>
+	<string name="avatar_has_been_published">Avatar has been published!</string>
+    <string name="sending_x_file">Sending %s</string>
+    <string name="offering_x_file">Offering %s</string>
+    <string name="hide_offline">Hide offline</string>
+    <string name="disable_account">Disable Account</string>
+    <string name="contact_is_typing">%s is typing...</string>
+    <string name="contact_has_stopped_typing">%s has stopped typing</string>
+    <string name="pref_chat_states">Typing notifications</string>
+    <string name="pref_chat_states_summary">Let your contact know when you are writing a new message</string>
+    <string name="send_location">Send location</string>
+    <string name="show_location">Show location</string>
+    <string name="no_application_found_to_display_location">No application found to display location</string>
+    <string name="location">Location</string>
+    <string name="received_location">Received location</string>
+	<string name="title_undo_swipe_out_conversation">Conversation closed</string>
+	<string name="title_undo_swipe_out_muc">Left conference</string>
+	<string name="pref_dont_trust_system_cas_title">Don’t trust system CAs</string>
+	<string name="pref_dont_trust_system_cas_summary">All certificates must be manually approved</string>
+	<plurals name="select_contact">
+		<item quantity="one">Select %d contact</item>
+		<item quantity="other">Select %d contacts</item>
+	</plurals>
+
+    <string name="signup_text">New Users : </string>
+    <string name="poweredby">
+        <!-- Powered by: www.mobisnow.com -->
+    </string>
+    <!-- Welcome Screen -->
+    <string name="no_local_access"> There is no \"Local access number\" for your country selection.</string>
+    <string name="welco_api_lbl">A2Billing API URI</string>
+    <string name="welco_example_text">/androida2billing/index.php</string>
+    <string name="welco_uri_hint">e.g:1.2.3/customer</string>
+    <string name="welco_next">Next</string>
+    <string name="welco_instruction">INSTRUCTIONS : </string>
+    <string name="welco_whats_new">What\'s New</string>
+    <string name="api_ins">        This version needs latest API. Download API from \nhttp://api.mobisnow.com\n and put it under a2billing customer folder on your server.
+        \n\n e.g \n   [domain]/[Path of Api]\n   server.nextstag.com\n</string>
+    <string name="whatsnew">- Added New Calling Card Feature.\n- Added Call-History from Server Side. \n- Improved GUI.\n- Minor Bug Fixes.\n\n<b>Note:</b> This version needs latest API. Download API from \nhttp://api.mobisnow.com\n and put it under a2billing customer folder on your server. </string>
+    <string name="remenber_cb"> Remember</string>
+    <!-- login Screen -->
+    <string name="admin_msg_uri" translatable="false">http://api.mobisnow.com/mobisip.php</string>
+    <string name="server_hint">domain:port</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup">Signup</string>
+    <string name="forgot_password"><u>Recover password</u></string>
+    <string name="user_id">Username</string>
+
+    <string name="app_name">OrbitCall</string>
+    <string name="server_uri">Server</string>
+    <string name="remember">Remember</string>
+    <string name="no_network_found">No network Found</string>
+    <string name="plz_check_internet_connection">Please check your internet connection.</string>
+    <!-- DialPad -->
+
+    <string name="local_access">Local Access</string>
+    <string name="voip_call">WiFi/3G/4G</string>
+    <string name="voipcall">VoIP Call</string>
+    <string name="call_back">Call Back</string>
+    <string name="access_no_setting">Access Number Setting</string>
+    <string name="credit">Credit: </string>
+    <!-- Action Bar -->
+    <string name="num_pad"> Numpad </string>
+    <string name="free_calls">Free Calls</string>
+    <string name="recent">Recent</string>
+    <string name="chat">Chat</string>
+    <string name="contacts">Contacts</string>
+    <string name="msg">Message</string>
+    <string name="favorite">Favorites</string>
+    <string name="settings">Setting</string>
+    <!-- Setting -->
+    <string name="about_us">About Us</string>
+    <string name="about_us_content"></string>
+    <string name="my_account">My Account</string>
+    <string name="account">Account</string>
+    <string name="rates">Rates</string>
+    <string name="setting_tab_name_text"></string>
+    <string name="callback">Call Back</string>
+    <string name="call">Call</string>
+    <string name="voip_call1">Voip Call</string>
+    <string name="feed_back">Feed Back</string>
+    <string name="buy_voucher">Buy Voucher</string>
+    <string name="recharge">Recharge</string>
+    <string name="refill">Recharge</string>
+    <string name="refill_via_paypal">Recharge via Paypal</string>
+
+    <string name="ref_hostory">Refill History</string>
+
+    <string name="recharge_card">Recharge via Card</string>
+    <string name="manage_acc">Manage Account</string>
+    <string name="Buy_forwarding_num">Buy Forwarding Number</string>
+
+
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string name="call_history">Call History</string>
+    <string name="refill_history">Refill History</string>
+    <string name="rate_check">Rate</string>
+    <string name="reseller">Find Local Reseller</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="logout">Logout</string>
+    <string name="log_out">Logout</string>
+
+    <!-- Local Access Settings -->
+    <string name="auto_login_title">Auto Login</string>
+    <string name="auto_login_summery">To loged in automatically</string>
+    <string name="calling_card_setting">Calling Card Settings</string>
+    <string name="access_no_title">Access number</string>
+    <string name="access_no_summery">Access number not set</string>
+    <string name="pause_before_title">Pause Time Before IVR</string>
+    <string name="pause_before_summery" />
+    <string name="pause_after_title">Pause Time After PIN</string>
+    <string name="pause_after_summery" />
+    <string name="auto_pin_title">Enable Auto PIN Dial</string>
+    <string name="auto_pin_summery" />
+    <string name="pin_title">Pin Number</string>
+    <string name="pin_summery" />
+    <!--  -->
+    <string name="change_api"><u>Change API</u></string>
+    <string name="feedback_email">info@---.com</string>
+    <string name="feedback_subject">FD PhoneTel</string>
+
+    <string-array name="amount">
+        <item>1 USD</item>
+        <item>2 USD</item>
+        <item>5 USD</item>
+        <item>10 USD</item>
+        <item>15 USD</item>
+        <item>20 USD</item>
+        <item>25 USD</item>
+        <item>50 USD</item>
+    </string-array>
+
+    <string name="init">Init…</string>
+    <string name="unable_to_download_file">Unable to download file</string>
+    <string name="connection_not_valid">Selected network route not allowed with current settings you have setup</string>
+    <string name="invalid_sip_uri">Sip uri is invalid for call</string>
+    <string name="accounts">Account</string>
+    <string name="other_accounts">Other accounts</string>
+    <string name="cancel">Cancel</string>
+    <string name="activate_account">Activate account</string>
+    <string name="deactivate_account">Deactivate account</string>
+    <string name="modify_account">Modify account</string>
+    <string name="add_account">Add account</string>
+    <string name="choose_wizard">Choose wizard</string>
+    <string name="use">Use :</string>
+    <string name="use_pstn">Use mobile</string>
+    <string name="use_skype">Use Skype</string>
+    <string name="ongoing_call">Call in Progress</string>
+    <string name="missed_call">Missed call</string>
+    <string name="recentCalls_empty">No Call Logs</string>
+    <string name="filters">Filters</string>
+    <string name="filters_desc">To apply when integration to Android is used</string>
+    <string name="filters_for">Filters for</string>
+    <string name="add_filter">Add filter / rewrite rule</string>
+    <string name="delete_filter">Delete filter</string>
+    <string name="callLog_delete_entry">Delete this call</string>
+    <string name="callLog_delete_all">Delete all calls</string>
+    <string name="callLog_delDialog_title">Delete Call Logs</string>
+    <string name="callLog_delDialog_message">Are you sure you want to delete all calls from the log?</string>
+    <string name="callLog_delDialog_yes">Yes</string>
+    <string name="callLog_delDialog_no">No</string>
+    <string name="gsm">Mobile</string>
+    <string name="dial_tab_name_text">Dial</string>
+    <string name="calllog_tab_name_text">CallLogs</string>
+    <string name="chat_tab_name_text">Chats</string>
+    <string name="recent_tab_text">Recent</string>
+    <string name="messages_tab_name_text">Messages</string>
+    <string name="menu_disconnect">	Exit</string>
+    <string name="service_ticker_registered_text">Registered</string>
+    <string name="outgoing_call_chooser_call_text">Call</string>
+    <string name="reorder">Reorder</string>
+    <string name="backup_restore">Backup / Restore</string>
+    <string name="backup">Backup</string>
+    <string name="faq">FAQ</string>
+    <string name="help">Help</string>
+    <string name="record_logs">Record logs to send it to dev team and report a bug</string>
+    <string name="send_logs">Stop recording logs (OPTIONALY send it)</string>
+    <string name="view_existing_issues">Consult existing issues</string>
+    <string name="misc">Misc</string>
+    <string name="warning">WARNING</string>
+    <string name="disconnect_and_incoming_explaination">You are configured to be available for this network !!! By clicking OK here you confirm that you don\'t want to be available until next start of the application</string>
+    <string name="gadget_title">SIP Account switcher</string>
+    <string name="pickup_sip_uri">Pickup SIP contact</string>
+    <string name="display_icon_in_status_bar_desc">Should the application display an icon in the status bar when registered</string>
+    <string name="display_icon_in_status_bar">Display icon in status bar</string>
+    <string name="another_application_use_sip_port">Another application is currently using SIP port! Can\'t start !!!</string>
+    <string name="choose_phone">Choose phone</string>
+    <string name="no_phone_found">No phone found for this contact</string>
+    <string name="show_password">Show password</string>
+    <string name="this_codec_is_not_free">**This codec is not free !!!**\nPlease ensure that somebody (your SIP provider or yourself) have purchased a license that allow you to use this codec! We (as application distributors) are not responsible for an illegal use of this codec.\nIt\'s up to you to be sure that you are authorized to use this codec.\nPurchase link : </string>
+    <string name="voice_mail">Voice mail</string>
+    <string name="voice_mail_number">VM number</string>
+    <string name="type_sip_uri_or_autocomplete">Sip uri or autocomplete</string>
+    <string name="not_configured_multiple_calls">The application is not configured to allow multiple calls</string>
+    <string name="legal_information">Legal information</string>
+    <string name="update_nightly_build">Update nightly build</string>
+    <string name="loading">Loading</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="switch_to_text">Switch to text mode</string>
+    <string name="switch_to_digit">Switch to digit mode</string>
+    <string name="no_voice_mail_configured">No voicemail configured</string>
+    <string name="no_accounts">No accounts</string>
+    <string name="activate">Activate</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="invert_selection">Invert selection</string>
+    <string name="cant_write_file">Error writing file</string>
+    <string name="info">Info</string>
+    <string name="to">TO</string>
+    <string name="can_not_send_blank">Can\'t send blank sms.</string>
+    <string name="not_save_destination_number">You have not saved destination number.</string>
+    <string name="not_save_callback_number">You have not saved callback number.</string>
+    <string name="internet_connection_msg">Please check your internet connection.</string>
+    <string name="sms_sent">SMS sent</string>
+    <string name="sms_failed">SMS failed</string>
+    <string name="server_not_response">Server not response</string>
+    <string name="plz_enter_number_first">Please enter number first</string>
+    <string name="choose_call_mode">Choose Call Mode</string>
+    <string name="callback_response_one">SkipRoaming system will call you back now and connect the dialled number.</string>
+    <string name="callback_response_two">Please specify your phone number and the destination number.</string>
+    <string name="callback_response_three">Unable call back your phone number.</string>
+    <string name="callback_response_four">Sorry, your balance is low. </string>
+    <string name="callback_response_five">Request failed.</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="enter_number_msg">Please enter number first</string>
+    <string name="not_logged">not logged in, please login first</string>
+    <string name="codec">Codec</string>
+    <string name="access_number_setting">Access Number Setting</string>
+    <string name="manage_account">Manage Account</string>
+    <string name="sms_hist">SMS History</string>
+    <string name="cost">Cost : </string>
+    <string name="communication_error">Communication Error</string>
+    <string name="close">Close</string>
+    <string name="topup_via_card">Topup via Card</string>
+    <string name="topup_via_voucher">Topup via Voucher</string>
+    <string name="plz_enter_voucher_code">Please Enter Voucher Code</string>
+    <string name="refil">Refill</string>
+    <string name="back">Back</string>
+    <string name="topup">Topup</string>
+    <string name="refer_friend">Refer a Friend</string>
+    <string name="rate">Check call Rates</string>
+
+    <string name="advance_setting">Advanced Setting</string>
+    <string name="account_sset">Account</string>
+    <string name="feedback">Feedback</string>
+
+    <string name="error_message">No active Internet connection</string>
+    <string name="my_mobile_number">My Mobile Number</string>
+    <string name="voucherr_recharge">Voucher Refill</string>
+    <string name="check_for_rate">Check for Rates</string>
+    <string name="my_callback_number">CallBack Number</string>
+    <string name="call_rate_message">Please Enter The Phone Number You Wish to Call (Country Code + Phone Number).</string>
+    <string name="get_rate">Get Rate</string>
+    <string name="refill_text">Refill</string>
+
+    <string name="first_enter_country_code">First enter country code</string>
+    <string name="saved_successfully">Saved Successfully</string>
+    <string name="mobile_info">Allow information about this device to be reported with this feedback. <u>More</u></string>
+    <string name="select_feedback_type">Select the feedback Type</string>
+    <string name="select_type_feedback">Select type of Feedback</string>
+    <string name="call_quality">Call Quality</string>
+    <string name="billing_issue">Billing Issue</string>
+    <string name="application">Application</string>
+    <string name="user_interface">User Interface</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="other">Other</string>
+    <string name="submit_feedback">Submitting your feedback!</string>
+    <string name="personal_data">Personal Data</string>
+    <string name="error_feedback">There was an error in submitting the feedback. Please try again</string>
+    <string name="thank_feedback">Thank you for submitting your feedback!</string>
+    <string name="enter_feedback">Enter the feedback</string>
+    <string name="feedback_important">Your feedback is important to us!</string>
+    <string name="submit">Submit</string>
+    <string name="more_info">We collect the following information:"\n" Device Vendor "\n" Device Model</string>
+
+    <!-- Presence stuff -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="away">Away</string>
+    <string name="busy">Busy</string>
+    <string name="activate_presence_sharing">Share presence</string>
+    <string name="deactivate_presence_sharing">Stop sharing presence</string>
+    <string name="presence">Presence</string>
+    <string name="set_android_group">Choose android group</string>
+    <string name="uri_nbr">Phone number</string>
+    <string name="uri_im">IM with custom SIP scheme</string>
+    <string name="set_sip_data">Choose sip uri data</string>
+  <!--  <string name="permdesc_configureSip">Usar sip</string>-->
+    <string name="permlab_useSip">Usar sip</string>
+    <string name="permdesc_useSip">Usar sip</string>
+    <string name="permlab_configureSip">Usar sip</string>
+    <!--  -->
+    <string name="acct_inactive">Onaktief</string>
+    <string name="acct_unregistered">Nie Geregistreer Nie</string>
+    <string name="acct_expired">Registrasie het verval</string>
+    <string name="acct_registering">Registreer…</string>
+    <string name="acct_registered">Geregistreer</string>
+    <string name="acct_regerror">Fout met registrasie</string>
+    <string name="title_activity_mang_account">MangAccount</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="country">Country</string>
+    <string name="access_number">Access Number</string>
+    <string name="pause_time_before">Pause Time Before IVR</string>
+    <string name="skiproaming_chat">SkipRoaming Chat</string>
+    <string name="account_setting">Account Setting</string>
+    <!-- for setting -->
+    <string name="MEDIA_G722">MEDIA_G722</string>
+    <string name="MEDIA_G729">MEDIA_G729</string>
+    <string name="MEDIA_AMR">MEDIA_AMR</string>
+    <string name="MEDIA_AMRWB">MEDIA_AMRWB</string>
+    <string name="MEDIA_GSM">MEDIA_GSM</string>
+    <string name="MEDIA_PCMA">MEDIA_PCMA</string>
+    <string name="MEDIA_PCMU">MEDIA_PCMU</string>
+    <string name="MEDIA_SPEEX">MEDIA_SPEEX</string>
+    <string name="MEDIA_SPEEXWB">MEDIA_SPEEXWB</string>
+    <string name="MEDIA_ILBC">MEDIA_ILBC</string>
+    <string name="MEDIA_ISACWB">MEDIA_ISACWB</string>
+    <string name="MEDIA_ISACSWB">MEDIA_ISACSWB</string>
+    <string name="MEDIA_OPUS">MEDIA_OPUS</string>
+    <string name="MEDIA_DTMF">MEDIA_DTMF</string>
+    <string name="G729">G729</string>
+    <string name="GSM">GSM</string>
+    <string name="PCMA">PCMA</string>
+    <string name="PCMU">PCMU</string>
+    <string name="string_audiofeature">Audio Feature</string>
+    <string name="MEDIA_VAD">VAD</string>
+    <string name="MEDIA_AEC">AEC</string>
+    <string name="MEDIA_ANS">ANS</string>
+    <string name="MEDIA_AGC">AGC</string>
+    <string name="MEDIA_CNG">CNG</string>
+    <string name="string_video">Video</string>
+    <string name="MEDIA_H263">MEDIA_H263</string>
+    <string name="MEDIA_H26398">MEDIA_H26398</string>
+    <string name="MEDIA_H264">MEDIA_H264</string>
+    <string name="MEDIA_VP8">MEDIA_VP8</string>
+    <string name="str_resolution_title">Select a resolution</string>
+    <string name="str_resolution">Resolution</string>
+    <string name="str_resolution_default">1</string>
+
+    <string name="call_via_sim">Call via local access number</string>
+    <string name="call_via_wifi">Call via wifi or data</string>
+    <string name="call_when_abroad">Call-Me-Back \n (I\'m abroad &amp; no wifi/data)</string>
+    <!-- Activities title -->
+    <string name="login_acitivity">Login</string>
+    <string name="dialpad_frag">Dialpad</string>
+    <string name="call_log_frag">Call Log</string>
+    <string name="settings_frag">Settings</string>
+
+   <!-- <string name="empty_description"></string>-->
+
+    <string name="str_longin">Login</string>
+    <string name="str_numpad">NumPad</string>
+    <string name="str_call_log">Call Log</string>
+    <string name="str_video">Video</string>
+    <string name="str_message">Messge</string>
+    <string name="str_setting">Setting</string>
+
+    <!-- splash_screen.xml -->
+    <string name="splash_banner">Phonix Dialer</string>
+
+    <!-- In Call Activity -->
+
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="duration">Duration</string>
+    <string name="time">Time</string>
+
+    <!-- login fragment -->
+    <string name="str_optional">Optional</string>
+    <string name="str_username">Username</string>
+    <string name="str_displayname">Display Name</string>
+    <string name="str_authName">Auth Name</string>
+    <string name="str_password">Password</string>
+    <string name="str_userDomain">UserDomain</string>
+    <string name="str_requried">Login Details:</string>
+    <string name="str_transport">Transport</string>
+    <string name="str_srtp">SRTP</string>
+    <string name="str_SIPServer">SIPServer</string>
+    <string name="str_SIPServerPort">SIPServerPort</string>
+    <string name="str_StunServer">StunServer</string>
+    <string name="str_StunServerPort">StunServerPort</string>
+    <string name="str_localSIPPort">LocalSIPPort</string>
+    <string name="str_remember">Remember</string>
+    <string name="def_sip_serv_port"></string>
+    <string name="def_sip_serv"></string>
+    <string name="sip_serv_hint">SIPServer</string>
+    <string name="def_stun_server"></string>
+    <string name="def_stun_server_port"></string>
+    <string name="banner">Rapid Call</string>
+
+    <string name="def_username"></string>
+    <string name="def_password"></string>
+
+    <string-array name="transpots">
+        <item>UDP</item>
+        <item>TLS</item>
+        <item>TCP</item>
+        <item>PERS</item>
+    </string-array>
+    <string-array name="srtp">
+        <item>None</item>
+        <item>Prefer</item>
+        <item>Force</item>
+    </string-array>
+    <!-- string name="Authentication">AuthName:</string -->
+
+    <string name="outboundServer">outboundServer</string>
+    <string name="outboundServerPort">outboundServerPort</string>
+    <string name="register">Online</string>
+    <string name="unregister">Unregistered</string>
+    <string name="registed">Registered</string>
+    <string name="not_reg">sign out</string>
+
+    <!-- in_call_activity -->
+    <string name="str_mute">Mute</string>
+    <string name="img">Image</string>
+
+    <string name="str_muteOn">w</string>
+    <string name="str_muteOff">x</string>
+    <string name="str_speekon">Speaker On</string>
+    <string name="str_speekoff">Speaker Off</string>
+    <string name="hold">Hold</string>
+    <string name="unhold">Unhold</string>
+    <string name="dtmf">DTMF</string>
+    <string name="undtmf">UNDTMF</string>
+
+    <!-- timer_window -->
+    <string name="timer">00:00:00</string>
+    <string name="contact_picture">contact Picture</string>
+    <string name="phone_number">phone number</string>
+    <string name="c_name">Name</string>
+    <string name="status">Status</string>
+
+    <!-- message -->
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="unpublish">Unpublish</string>
+    <string name="str_sendmsg">Send</string>
+    <string name="str_sendsdp">SendSDP</string>
+    <string name="str_confrence">Conference</string>
+    <string name="str_setstatus">Set</string>
+    <string name="str_status">Status</string>
+    <string name="str_clear">Clear Contact</string>
+    <string name="str_update">Update Contact</string>
+    <string name="str_sendto">Send to:</string>
+    <string name="contact">Contact</string>
+    <string name="message">Message</string>
+    <string name="sipsample">SipSample</string>
+    <string name="change_opcode">Change Opcode</string>
+    <string name="website">website:http://www.portsip.com</string>
+    <string name="email">email:sales@portsip.com</string>
+
+
+    <!-- number pad fragment -->
+
+
+
+
+    <string name="str_videocall">VideoCall</string>
+    <string name="str_acceptvideo">AcceptVideo</string>
+    <string name="str_conference">Conference</string>
+    <string name="str_zero">0</string>
+    <string name="str_one">1</string>
+    <string name="str_two">2</string>
+    <string name="str_three">3</string>
+    <string name="str_four">4</string>
+    <string name="str_five">5</string>
+    <string name="str_six">6</string>
+    <string name="str_seven">7</string>
+    <string name="str_eight">8</string>
+    <string name="str_nine">9</string>
+    <string name="str_star">*</string>
+    <string name="str_sharp">#</string>
+    <string name="str_plus">+</string>
+    <string name="str_dial">CALL</string>
+    <string name="str_vcall">Video Call</string>
+    <string name="str_acall">Audio Call</string>
+    <string name="str_del">Del</string>
+    <string name="str_hold">Hold</string>
+    <string name="str_unhold">UnHold</string>
+    <string name="str_reject">Reject</string>
+    <string name="str_att_transfer">Attend Transfer</string>
+    <string name="str_transfer">Transfer</string>
+    <string name="str_hangup">Hangup</string>
+    <string name="str_refer">Refer</string>
+    <string name="str_answer">Answer</string>
+    <string name="str_number">Phone Number</string>
+
+    <!-- string name="str_status">Status :</string -->
+    <string name="str_tips">Balance: </string>
+    <string name="default_balance">--.--</string>
+    <string name="line">line-</string>
+    <string-array name="arr_resolution">
+        <item>QCIF</item>
+        <item>CIF</item>
+        <item>VGA</item>
+        <item>SVGA</item>
+        <item>XVGA</item>
+        <item>720P</item>
+        <item>QVGA</item>
+    </string-array>
+    <string-array name="arr_resolution_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string name="str_bitrate">Bitrate</string>
+
+    <string-array name="arr_bitrate">
+        <item>UDP</item>
+        <item>TLS</item>
+        <item>TCP</item>
+        <item>PERS</item>
+    </string-array>
+
+    <string name="str_avpath">Audio and Vedio recording</string>
+    <string name="str_avpathtitle">Record file directory</string>
+    <string name="str_avpathkey">AVpath</string>
+    <string name="str_forward">Forward</string>
+    <string name="str_fwopentitle">Enable forward call</string>
+    <string name="str_fwopenkey">ForwardEnable</string>
+    <string name="str_fwtotitle">Forward call to:</string>
+    <string name="str_fwtokey">Forwardto</string>
+    <string name="str_fwbusytitle">Forward call when busy</string>
+    <string name="str_fwbusykey">ForwardBusy</string>
+    <string name="title_activity_in_call">Calling</string>
+
+    <string name="str_prack">PRACK</string>
+    <string name="str_pracktitle">Enable PRACK</string>
+    <!--  Strings for possible PreferenceActivity Back/Next buttons -->
+    <string name="back_button_label">Back</string>
+    <string name="next_button_label">Next</string>
+
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="skip_button_label">Skip</string>
+
+    <!-- opcode_activity -->
+    <string name="opcode">Enter Opcode</string>
+    <string name="button_ok">Submit</string>
+
+    <!-- media_set_new -->
+    <string name="account_settings">Change Account</string>
+    <string name="account_settings_summary">Change your login settings</string>
+    <string name="codec_settings">Codec Settings</string>
+    <string name="codec_setting_summary">Add or remove audio codecs</string>
+    <string name="change_opcode_summary">Click to edit opcode</string>
+    <string name="logout_summary">Logout this account</string>
+
+    <!-- setting_single_row.xml -->
+    <string name="test">This is test setting</string>
+
+    <!-- settings_fragment.xml -->
+    <string name="setting_title">Settings</string>
+
+    <!-- callog_view.xml -->
+    <string name="call_log_title">Call Log</string>
+
+    <!-- ChangeAcount.java -->
+    <string name="change_Account_title">Change Account</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
